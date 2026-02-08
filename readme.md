@@ -1,8 +1,4 @@
-__TOC__
-
-
 <img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/top_banner.png" width="1000">
-
 <span style="display:inline-block; margin-right:6px;">
   <a href="https://www.paypal.com/donate?business=ed_terbak%40hotmail.com&no_recurring=0&item_name=Support+my+work&currency_code=EUR">
     <img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?style=for-the-badge&logo=paypal&logoColor=white">
@@ -19,10 +15,10 @@ __TOC__
 **About v26.2.1 Stable**
 
 This flow version works best with heishamon firmwares from 3.1 or higher. Recommanded is fw3.9 as it is the latest stable.
-
 <br/>
-There are also some breaking changes in the SoftStart function.<br>
-Please read the tooltips from the menu items to set it correctly.<br>
+
+Important note: There are breaking changes compared to v25. Please read the xxx section<br>
+Also read the tooltips from the menu items to set it correctly.<br>
 If you are updating from a previous version, please check and verify all settings again.
 
 ********
@@ -65,6 +61,10 @@ If you are updating from a previous version, please check and verify all setting
 <!-- headings -------------------------------->
 <a id="introduction"></a>
 
+## Update instructions
+If you are updating from a previous version please take a note of the following:
+- 
+
 ## Introduction
 Heishamon PCB is created by Egyras. AWESOME job! <br/>
 You can get one from here: https://www.tindie.com/stores/thehognl/ <br/>
@@ -90,7 +90,8 @@ In this GIT-page you can read about the NR Dashboard I built and the multiple ex
 <!-- headings -------------------------------->
 <a id="changes-in-v25.00-compared-to-v24.03-stable"></a>
 
-## Changes in version 26.2.1 stable compared to 25.x stable
+## Changes
+Below are the changes in version 26.2.1 stable compared to 25.x stable
 
 <ins>Major changes:</ins></br>
 - WAR renamed to CCC. (from Dutch WeersAfhankelijkeRegeling to CustomCompensationCurve, which makes more sense)</br>
@@ -109,42 +110,14 @@ In this GIT-page you can read about the NR Dashboard I built and the multiple ex
 - Improved charts. Now surviving reboots</br>
 - Allow sending HEAT setpoints in all operating modes</br>
 - Removed all QOS 1 and 2 on mqtt nodes. It is not supported</br>
+- Added more Panasonic pump versions to detect</br>
+- Fan 2 auto-show/hide when it is detected</br>
+
+********
 
 <ins>Existing limitations:</ins></br>
 - Cool function only works in DIRECT mode. (still on the list to fix, but is on low priority)
-- 
-
-SoftStart function:</br>
-- SoftStart Fixes: Resolved bugs related to defrost phase and startup loops</br>
-</br>
-
-<ins>RTC function:</ins></br>
-- Multiple improvements to prevent premature triggering</br>
-- Multiple improvements for the reverting actions</br>
-- MQTT Fixes: Eliminated repeating commands like SetZ1CoolRequestTemperature</br>
-</br>
-
-<ins>Charts & UI Improvements:</ins></br>
-- Home screen: If Fan2 is present, it will show up (and stay) after first value enters.</br>
-- Home screen: Added Heater, it will show up (and stay) after first value enters. And when active, it will light up.</br>
-- Translated some chart labels from Dutch to English</br>
-</br>
-
-<ins>Solar²DHW:</ins></br>
-- Forced DHW-only mode during a run for better compatibility with HEAT+DHW</br>
-- Improved kWh calculations and graph visuals</br>
-- More robust energy tracking in Solar²DHW (fixed NaNs, graph is now more robust, but could increase loading a bit)</br>
-- Moved P1 setup to [SYSTEM] > [SENSORS] tab. Much better.</br>
-</br>
-
-Miscellaneous Fixes:</br>
-- Reading Panasonic details logic rewritten for fw3.9</br>
-- Powerful mode toggle fix</br>
-- Pressure readout (TOP115) added</br>
-
-
-
-
+  
 As always, enjoy your heat pump!  
 </br>
 /Ed ter bak  
