@@ -26,18 +26,18 @@ If you are updating from a previous version, please check and verify all setting
 <a id="index"></a>
 ## Table of Content
 - [Introduction](#introduction)  
-- [What can this Node Red flow do for you](#whatcanthisnoderedflowdoforyou)
+  - [What can this Node Red flow do for you](#whatcanthisnoderedflowdoforyou)
 - [Requirements](#requirements)
-- [Flow Installation](#installation)
+- [Installation](#installation)
   - [First installation](#first_installation)
-  - [Update existing installation](#update_existing_installation)
   - [Flow installation](#howtoinstallnr)  
-  - [How to personalize or customize](#howto_personalize_customize)  
-  - [How to create a backup of your current flow](#howto_backup)  
-  - [How to update to a newer version](#howto_update)  
-- [Starting the flow for the First time](#first_start)
+- [Starting for the First time](#first_start)
   - [Starting procedure](#starting_procedure)
-  - 
+  - [Guidelines and tips](#guidelines_and_tips)
+    - [How to personalize or customize](#howto_personalize_customize)  
+- [Updating](#updating)
+  - [How to create a backup](#howto_backup)  
+  - [How to update](#howto_update)
 - [The Dashboard](#dashboard)  
   - [Home](#home)
   - [Settings](#settings)
@@ -50,7 +50,7 @@ If you are updating from a previous version, please check and verify all setting
     - [Solar²DHW](#solar2dhw)
   - [Scheduler](#scheduler)
     - [Conditions](#conditions)
-  - [Chart's](#charts)
+  - [Charts](#charts)
     - [Temperature](#temperature)
     - [Energy](#energy)
     - [Degree Days](#degreedays)
@@ -64,35 +64,63 @@ If you are updating from a previous version, please check and verify all setting
 
 <!-- headings -------------------------------->
 <a id="introduction"></a>
-
-## Update instructions
-If you are updating from a previous version please take a note of the following:
-- 
-
 ## Introduction
-Heishamon PCB is created by Egyras. AWESOME job! <br/>
+You can connect your Panasonic heatpump to the default CZ-TAW1 module. Then you are locked in the Panasonic ecosystem depending on using the wallmounted controller or Aquarea Smart Cloud.
+
+Alternatively you can connect your Panasonic heatpump to Heishamon. The heishamon board is created by Egyras. AWESOME job! <br/>
 You can get one from here: https://www.tindie.com/stores/thehognl/ <br/>
+```mermaid
+---
+config:
+  look: handDrawn
+  theme: forest
+---
+flowchart LR
+    A((A
+		Panasonic    
+		Heatpump)) <---> B(B
+		Heishamon)
+	B <---> C{{C
+		MQTT Broker}}
+    C <---> D(D
+		Application X)
+```
 
-With this PCB, you can communicate directly with a wide range of Panasonic heat pumps. 
-- The heishamon PCB can receive information from the Panasonic heat pump and forwards it to a MQTT-broker.  
-- The heishamon PCB can receive commands from the MQTT-broker and sends it to the Panasonic heat pump. 
+* []() A > B: The Panasonic heatpump communicates with the heishamon board
+* []() B > C: Heishamon communicates with your MQTT broker
+* []() C > D: Our own application communicates with the MQTT brokker
 
-There are multiple options to connect to the heishamon and control your heat pump. As long as it is able to read and send MQTT information.  
-* []() 1: MQTT > Home Assistant
-* []() 2: MQTT > OpenHab
-* []() 3: MQTT > Domoticz
-* []() 4: MQTT > Node Red
-* []() 5: MQTT > ... any other automation platform
+There are multiple options to use as your "Application X". You are free to use whatever application you want as option D. As long as it is able to read and send MQTT. Some of the more popular options are:
+* []() Home Assistant
+* []() OpenHab
+* []() Domoticz
+* []() Node Red
+* []() ... any other automation platform
 
-All of the above options are different ways to interact with your heat pump. (And all are good if your happy with it)<br/>
-I have chosen to use Node Red (=NR). I already use a lot of NR functionality/automations combined with HomeAssistant. In many cases NR is the controller and HomeAssistant (=HA) is just the graphical front. This CAN be different if you want, as HA is also able to send/receive MQTT messages.  
+I have chosen to use **Node Red** (=NR) as my FrontEnd. 
+
+My personal motivation to go down this route:
+- No external dependancies by removing the vendors cloud services. Cloud services have proven to be a risk. Too many vendors dropped their cloud service because they find out it is expensive to maintain without subscription. I dont like to be forced into a subscription.
+- Robustness via Local control. An active internet connection is not required. In case internet fails the heatpump remains unaffected.
+- Privacy/Security: By not having a vendor cloud service, subscription, etc. I have no risk of being caught in any data leak and my data is not shared with anybody.
+- I needed a hobby :)
+
 
 <br/>
-In this GIT-page you can read about the NR Dashboard I built and the multiple extra functions to control the Panasonic.
+In this page you can read about the Node Red Dashboard I built and the multiple extra functions I created to control the Panasonic.
+
 [Back to top](#index)
 
 <!-- headings -------------------------------->
-<a id="changes-in-v25.00-compared-to-v24.03-stable"></a>
+<a id="whatcanthisnoderedflowdoforyou"></a>
+
+## What can this Node Red flow do for you?  
+Only using the default room controller does not let you see historical data easily. This controller is not extremely user friendly as well. This Node Red dashboard offers a lot of ease for that with charts and bar-charts.  
+
+Additionally, I have built in a lot of extra functions to do specific tasks or automation's. More about that below...  
+[Back to top](#index)
+
+********
 
 ## Changes
 Below are the changes in version 26.2.1 stable compared to 25.x stable
@@ -122,22 +150,9 @@ Below are the changes in version 26.2.1 stable compared to 25.x stable
 <ins>Existing limitations:</ins></br>
 - Cool function only works in DIRECT mode. (still on the list to fix, but is on low priority)
   
-As always, enjoy your heat pump!  
-</br>
-/Ed ter bak  
 [Back to top](#index)
 
-<!-- headings -------------------------------->
-<a id="whatcanthisnoderedflowdoforyou"></a>
-
-## What can this Node Red flow do for you?  
-Only using the default room controller does not let you see historical data easily. This controller is not extremely user friendly as well. This Node Red dashboard offers a lot of ease for that with charts and bar-charts.  
-
-Additionally, I have built in a lot of extra functions to do specific tasks or automation's. More about that below...  
-[Back to top](#index)
-
-********
-
+*********
 <img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/requirements.png" width="500">  
 
 **What do I need to make use of this flow?**<br/>
