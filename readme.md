@@ -95,7 +95,7 @@ There are multiple options to use as your "Application X". You are free to use w
 
 I have chosen to use **Node Red** (=NR) as my FrontEnd. 
 
-My personal motivation to go down this route:
+My personal motivation to go down this route of using heishamon:
 - No external dependancies by removing the vendors cloud services. Cloud services have proven to be a risk. Too many vendors dropped their cloud service because they find out it is expensive to maintain without subscription. I dont like to be forced into a subscription.
 - Robustness via Local control. An active internet connection is not required. In case internet fails the heatpump remains unaffected.
 - Privacy/Security: By not having a vendor cloud service, subscription, etc. I have no risk of being caught in any data leak and my data is not shared with anybody.
