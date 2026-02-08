@@ -26,14 +26,18 @@ If you are updating from a previous version, please check and verify all setting
 <a id="index"></a>
 ## Table of Content
 - [Introduction](#introduction)  
-- [Changes in v25.00 compared to v24.03 stable](#changes-in-v25.00-compared-to-v24.03-stable)
-- [What can this Node Red flow do for you](#whatcanthisnoderedflowdoforyou)  
-- Installation
-  - [Requirements](#requirements)  
+- [What can this Node Red flow do for you](#whatcanthisnoderedflowdoforyou)
+- [Requirements](#requirements)
+- [Flow Installation](#installation)
+  - [First installation](#first_installation)
+  - [Update existing installation](#update_existing_installation)
   - [Flow installation](#howtoinstallnr)  
   - [How to personalize or customize](#howto_personalize_customize)  
   - [How to create a backup of your current flow](#howto_backup)  
   - [How to update to a newer version](#howto_update)  
+- [Starting the flow for the First time](#first_start)
+  - [Starting procedure](#starting_procedure)
+  - 
 - [The Dashboard](#dashboard)  
   - [Home](#home)
   - [Settings](#settings)
@@ -52,7 +56,7 @@ If you are updating from a previous version, please check and verify all setting
     - [Degree Days](#degreedays)
   - [System](#system)
 - [FAQ](#faq)
-- [Release changelog](#changelog)
+- [Changes](#changes)
 - [Acknowledgments](#acknowledgments)
 - [Donations](#donations)  
 
@@ -152,7 +156,7 @@ If you have HomeAssistant also connected to heishamon >> Disable all related aut
 [Back to top](#index)
 
 ********
-
+<a id="installation"></a>
 <img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/install.png" width="500">
 
 <!-- headings -------------------------------->
