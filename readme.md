@@ -14,9 +14,6 @@
 
 **About v26.2.1 Stable**
 
-This flow version works best with heishamon firmwares from 3.1 or higher. Recommanded is fw3.9 as it is the latest stable.
-<br/>
-
 Important note: There are breaking changes compared to v25. Please read the xxx section<br>
 Also read the tooltips from the menu items to set it correctly.<br>
 If you are updating from a previous version, please check and verify all settings again.
@@ -26,7 +23,6 @@ If you are updating from a previous version, please check and verify all setting
 <a id="index"></a>
 ## Table of Content
 - [Introduction](#introduction)  
-  - [What can this Node Red flow do for you](#whatcanthisnoderedflowdoforyou)
 - [Requirements](#requirements)
 - [Installation](#installation)
   - [First installation](#first_installation)
@@ -104,24 +100,35 @@ My personal motivation to go down this route:
 - Robustness via Local control. An active internet connection is not required. In case internet fails the heatpump remains unaffected.
 - Privacy/Security: By not having a vendor cloud service, subscription, etc. I have no risk of being caught in any data leak and my data is not shared with anybody.
 - I needed a hobby :)
+- Using Node Red as the front end allowed me to create cool new custom functions
 
-
-<br/>
-In this page you can read about the Node Red Dashboard I built and the multiple extra functions I created to control the Panasonic.
-
-[Back to top](#index)
-
-<!-- headings -------------------------------->
-<a id="whatcanthisnoderedflowdoforyou"></a>
-
-## What can this Node Red flow do for you?  
-Only using the default room controller does not let you see historical data easily. This controller is not extremely user friendly as well. This Node Red dashboard offers a lot of ease for that with charts and bar-charts.  
-
-Additionally, I have built in a lot of extra functions to do specific tasks or automation's. More about that below...  
 [Back to top](#index)
 
 ********
 
+<!-- headings -------------------------------->
+<a id="requirements"></a>
+<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/requirements.png" width="500">  
+
+**What do I need to make use of this flow?**<br/>
+1. The heishamon module working with your heat pump.
+2. A functional MQTT broker. ([Mosquitto](https://mosquitto.org/)/[HiveMQ](https://www.hivemq.com/)/[EMQX](https://www.emqx.io/)/etc.)  
+3. A functional Node Red instance.  
+
+<br/>
+<ins>1. Heishamon:</ins><br>
+Obviously, you need the heishamon pcb module connected to your heat pump and have it functional. Without this module, you can stop reading. 😄 See this site to get one: https://www.tindie.com/stores/thehognl/ <br/><br/>
+<ins>2. MQTT Broker:</ins><br>
+You can use any broker that is 24/7 available. You can install it on any system, as long as heishamon and the broker can communicate with each other and the Node Red can communicate with the broker.<br>
+<br>
+<ins>3. Node Red:</ins><br>
+You can install node red on a lot of devices. It can be directly on Linux or a device like Raspberry Pi. You can also run it in a container (self hosted) or within Home Assistant (add-on). For all options see: https://nodered.org/ <br/> All of these options are good, as long as the Node Red application can communicate with the broker and the Node Red instance has persistent storage enabled.<br/>
+The Node Red flow is stand-alone so: You do not require a database. You do not require HomeAssistant.  
+If you have HomeAssistant also connected to heishamon >> Disable all related automation's!! 2 captains on 1 ship does not go well....  
+
+[Back to top](#index)
+
+********
 ## Changes
 Below are the changes in version 26.2.1 stable compared to 25.x stable
 
@@ -150,24 +157,6 @@ Below are the changes in version 26.2.1 stable compared to 25.x stable
 <ins>Existing limitations:</ins></br>
 - Cool function only works in DIRECT mode. (still on the list to fix, but is on low priority)
   
-[Back to top](#index)
-
-*********
-<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/requirements.png" width="500">  
-
-**What do I need to make use of this flow?**<br/>
-1. The heishamon module working with your heat pump.
-2. A functional MQTT broker. ([Mosquitto](https://mosquitto.org/)/[HiveMQ](https://www.hivemq.com/)/[EMQX](https://www.emqx.io/)/etc.)  
-3. A functional Node Red instance.  
-
-<br/>
-1. Obviously, you need the heishamon pcb module connected to your heat pump and have it functional. Without this module, you can stop reading. 😄 See this site to get one: https://www.tindie.com/stores/thehognl/ <br/><br/>
-2. You can use any broker that is 24/7 available. You can install it on any system, as long as heishamon and the broker can communicate with each other and the Node Red can communicate with the broker.  
-<br/>
-3. You can install node red on a lot of devices. It can be directly on Linux or a device like Raspberry Pi. You can also run it in a container (self hosted) or within Home Assistant (add-on). For all options see: https://nodered.org/ <br/> All of these options are good, as long as the Node Red application can communicate with the broker and the Node Red instance has persistent storage enabled.<br/>
-The Node Red flow is stand-alone so: You do not require a database. You do not require HomeAssistant.  
-If you have HomeAssistant also connected to heishamon >> Disable all related automation's!! 2 captains on 1 ship does not go well....  
-
 [Back to top](#index)
 
 ********
