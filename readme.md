@@ -108,23 +108,20 @@ My personal motivation to go down this route of using heishamon:
 
 <!-- headings -------------------------------->
 <a id="requirements"></a>
-<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/requirements.png" width="500">  
-
+## Requirements
 **What do I need to make use of this flow?**<br/>
-1. The heishamon module working with your heat pump.
+From looking at the above diagram in the Introduction section, it becomes clear you require some items.
+
+<ins>You require:</ins>
+1. The heishamon module
 2. A functional MQTT broker. ([Mosquitto](https://mosquitto.org/)/[HiveMQ](https://www.hivemq.com/)/[EMQX](https://www.emqx.io/)/etc.)  
 3. A functional Node Red instance.  
 
-<br/>
-<ins>1. Heishamon:</ins><br>
-Obviously, you need the heishamon pcb module connected to your heat pump and have it functional. Without this module, you can stop reading. 😄 See this site to get one: https://www.tindie.com/stores/thehognl/ <br/><br/>
-<ins>2. MQTT Broker:</ins><br>
-You can use any broker that is 24/7 available. You can install it on any system, as long as heishamon and the broker can communicate with each other and the Node Red can communicate with the broker.<br>
-<br>
-<ins>3. Node Red:</ins><br>
-You can install node red on a lot of devices. It can be directly on Linux or a device like Raspberry Pi. You can also run it in a container (self hosted) or within Home Assistant (add-on). For all options see: https://nodered.org/ <br/> All of these options are good, as long as the Node Red application can communicate with the broker and the Node Red instance has persistent storage enabled.<br/>
-The Node Red flow is stand-alone so: You do not require a database. You do not require HomeAssistant.  
-If you have HomeAssistant also connected to heishamon >> Disable all related automation's!! 2 captains on 1 ship does not go well....  
+<ins>You do not require:</ins>
+1. a database backend
+2. Home Assistant *1
+
+_1: To clarify; Although it is possible to have Node Red installed as App inside of Home Assistant, Home Assistant itself is not required._
 
 [Back to top](#index)
 
