@@ -80,27 +80,24 @@ flowchart LR
 		MQTT Broker}}
     C <---> D(D
 		Application X)
+	style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
-
 * []() A > B: The Panasonic heatpump communicates with the heishamon board
 * []() B > C: Heishamon communicates with your MQTT broker
 * []() C > D: Our own application communicates with the MQTT brokker
 
-There are multiple options to use as your "Application X". You are free to use whatever application you want as option D. As long as it is able to read and send MQTT. Some of the more popular options are:
-* []() Home Assistant
-* []() OpenHab
-* []() Domoticz
-* []() Node Red
-* []() ... any other automation platform
+As Application X, I have chosen to use **Node Red** (=NR) as FrontEnd and automation platform. 
+In this repository you will find all about this Node Red flow.
 
-I have chosen to use **Node Red** (=NR) as my FrontEnd. 
+### What can this flow do for you (simple benefits)
+With this Node‑RED flow you can:
 
-My personal motivation to go down this route of using heishamon:
-- No external dependancies by removing the vendors cloud services. Cloud services have proven to be a risk. Too many vendors dropped their cloud service because they find out it is expensive to maintain without subscription. I dont like to be forced into a subscription.
-- Robustness via Local control. An active internet connection is not required. In case internet fails the heatpump remains unaffected.
-- Privacy/Security: By not having a vendor cloud service, subscription, etc. I have no risk of being caught in any data leak and my data is not shared with anybody.
-- I needed a hobby :)
-- Using Node Red as the front end allowed me to create cool new custom functions
+* Control your heat pump locally via dashboard, without relying on Panasonic's cloud.
+* See detailed real‑time and historical data (temperatures, energy, operation mode, etc.) via dashboards.
+* Use advanced custom functions such as CCC, RTC, SoftStart, and Solar‑driven DHW optimizations.
+* Use your any custom sensor for the custom functions, no Panasonic default sensors required. 
+* Automate your heat pump using schedules, conditions, sensors, or external data sources.
+
 
 [Back to top](#index)
 
