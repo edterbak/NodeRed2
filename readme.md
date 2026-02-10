@@ -98,12 +98,10 @@ So, what can it do.
 * Works with **any sensor** for the custom functions. 
 * **Automations** using schedules with conditions.
 
-### Quick peek...
-
-Here are a couple of images to show the dashboard. For more images look >> here <<
+### Dashboard impression
+Here are just a few images to show the dashboard. For more images look >> here <<
 
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br/>
-
 
 
 [Back to top](#index)
