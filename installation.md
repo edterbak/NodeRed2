@@ -91,3 +91,49 @@ If you are running Node Red from within HomeAssistant, follow the instructions f
 This part will be about the flow installation.
 
 [Back](readme.md)
+
+---------------
+
+## Flow installation:<br/>
+<details>
+Dashboard: http://IP:1880/ui	(For HomeAssistant: http://IP:1880/endpoint/ui)
+Flows: http://IP:1880/#flow
+
+* []() In NR, click on the hamburger icon (three horizontal stripes) in the top right corner
+* []() Select Import
+* []() Copy/past the content of the .JSON file from this GIT. (or select a file to upload and select the flow.json file offered here)
+* []() Click on Import
+
+Once imported, you need to adjust the settings of the MQTT server. <br/>
+1. Add the correct information of your broker
+2. Use QOS: 0 or 1 (maximum for heishamon).
+3. Use MQTT v3.1.1 (maximum for heishamon).
+Click on the hamburger icon and then configuration nodes. Find the MQTT broker part, double click it and change to your settings.<br/>
+![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br/>
+
+Important >> After import and correcting the MQTT settings, and you might want to connect custom external sensors.<br/>
+By default the native Panasonic sensors will be used. But you can connect your custom sensor.  For this go to the flow page to the tab [WP Input], the section indicated below in purple section.
+![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/v24.00_flow_external_sensors.png?raw=true)  
+You can also connect external signals to the flow in this tab. 
+
+** Note 1: The Panasonic Room Thermostat is not very accurate which might cause bad temperature control. <br/>
+** Note 2: The Outside temperature sensor on the Panasonic might be subject to heating up due to direct sunlight. This can also have a negative impact on the functions. Personally I use OpenWeatherMap source for outside temperature, but anything is possible.<br/>
+
+[Back to top](#index)
+
+### Opening the dashboard
+You can find the link to the dashboard like this:<br/>
+![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard2.png?raw=true) ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard1.png?raw=true)
+
+[Back to top](#index)
+</details>
+
+<!-- headings -------------------------------->
+<a id="howto_personalize_customize"></a>
+## How to personalize or customize
+<details>
+It is advised to create a separate tab for your external sources. Any source available in Node Red can be conditioned and used as a sensor in the functions. If you do this in an 'personal tab', then it is likely easier to update later to newer versions. (no guarantees of course)<br/>
+
+[Back to top](#index)
+</details>
+
