@@ -12,7 +12,7 @@
 
 ********
 
-**Current version:** v26.2.1 Stable
+**Current version:** v26.2.1 Stable<br>
 **Release date:** 2026-02-10
 
 
@@ -38,6 +38,10 @@
 ********
 
 <!-- headings -------------------------------->
+
+## Abstract
+This repository holds a node red flow which gives you a user friendly dashboard for local control of your Panasonic heatpump via heishamon. <br>
+
 <a id="introduction"></a>
 ## Introduction
 You can connect your Panasonic heatpump to the default CZ-TAW1 module. Then you are locked in the Panasonic ecosystem depending on using the wallmounted controller or Aquarea Smart Cloud.
