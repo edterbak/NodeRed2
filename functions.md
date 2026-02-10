@@ -1,8 +1,19 @@
 <!-- headings -------------------------------->
 <a id="functions"></a>
 ## Custom functions
-
-[Back to top](#index)
+The flow contains some custom functions. 
+  - [Custom functions](#functions)
+    - [Pumpspeed](#pumpspeed)
+    - [CCC](#ccc)
+    - [RTC](#rtc)
+    - [Cool](#cool)
+    - [SoftStart](#softstart)
+    - [Solar²DHW](#solar2dhw)
+      
+  - [Scheduler](#scheduler)
+    - [Conditions](#conditions)
+   
+[Back](#./readme.md)
 
 <!-- headings -------------------------------->
 <a id="pumpspeed"></a>
