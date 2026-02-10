@@ -37,7 +37,7 @@
 <!-- headings -------------------------------->
 
 ## Abstract
-This repository holds a node red flow which gives you a user friendly dashboard for local control of your Panasonic heatpump via heishamon. <br>
+This repository holds a **Node Red flow** which gives you a user friendly dashboard for local control of your Panasonic heatpump via heishamon. <br>
 
 <a id="introduction"></a>
 ## Introduction
