@@ -1,7 +1,5 @@
 <!-- headings -------------------------------->
-<a id="acknowledgments"></a>
 ## Acknowledgments
-<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/acknowledgments.png" width="500">
 
 * []() Egyras: The original creator of Heishamon. https://github.com/Egyras
 * []() Egyras: For the MQTT topic list - https://github.com/Egyras/HeishaMon/blob/master/MQTT-Topics.md
