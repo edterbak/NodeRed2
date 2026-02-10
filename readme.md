@@ -23,9 +23,7 @@ If you are updating from a previous version, please check and verify all setting
 <a id="index"></a>
 ## Table of Content
 - [Introduction](#introduction)  
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Installation instructions](installation.md)
+- [Installation](installation.md)
   - [First installation](#first_installation)
   - [Flow installation](#howtoinstallnr)  
 - [Starting for the First time](#first_start)
