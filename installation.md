@@ -49,16 +49,19 @@ Reboot Node Red for the changes to be applied.<br/>
 
 <a id="node_red_libraries"></a>
 ### Required Node Red libraries/pallets
-To make use of the dashboard functionality, you need to install the dashboard library.<br/>
-https://flows.nodered.org/node/node-red-dashboard <br/>
-The scheduler makes use of the moment lib.<br/>
-https://flows.nodered.org/node/node-red-contrib-moment <br/>
-node-red-contrib-noop is used as well <br/>
-https://flows.nodered.org/node/node-red-contrib-noop <br/>
-node-red-contrib-dashboard-bar-chart-data (from v13+)<br/>
-https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data <br/>
-node-red-node-smooth (from 20+)<br/>
-https://flows.nodered.org/node/node-red-node-smooth<br/>
+- To make use of the dashboard functionality, you need to install the dashboard library.<br/>
+		https://flows.nodered.org/node/node-red-dashboard <br/>
+- The scheduler makes use of the moment lib<br/>
+		https://flows.nodered.org/node/node-red-contrib-moment <br/>
+- node-red-contrib-dashboard-bar-chart-data<br/>
+		https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data <br/>
+- node-red-node-smooth<br/>
+		https://flows.nodered.org/node/node-red-node-smooth<br/>
+- node-red-node-ui-table<br/>
+		https://flows.nodered.org/node/node-red-node-ui-table
+
+> [!NOTE]
+> The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo)
 
 ### Timezone setup
 If you use a linux version, make sure you set your correct timezone. You can do this by running this command from CLI root and go through the setup process.
