@@ -10,7 +10,7 @@ From looking at the diagram in the introduction page you could notice you requir
 2. A functional MQTT broker. ([Mosquitto](https://mosquitto.org/)/[HiveMQ](https://www.hivemq.com/)/[EMQX](https://www.emqx.io/)/etc.)  
 3. A functional Node Red instance.
 4. Patiance
-5. Some IT awareness and interest. [Pre-born infant] |---------------X>------------------------------------| [GodLike / Hacker] 
+5. Some IT awareness and interest.
 
 
 These items are the most basic things you need to have installed and operational. <br>
