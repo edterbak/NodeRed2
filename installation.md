@@ -1,7 +1,7 @@
 <a id="requirements"></a>
-## Requirements for Node Red<br/>
+## Installation details for Node Red<br/>
 
-1. [Requirements for Node Red](#requirements)
+1. [Node Red](#requirements)
 	- [Persistant storage](#persistant_storage)
  	- [Required Node Red libraries/pallets](#node_red_libraries)
   	- [Timezone setup](#time_zone)
