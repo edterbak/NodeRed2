@@ -95,7 +95,6 @@ This part will be about the flow installation.
 ---------------
 
 ## Flow installation:<br/>
-<details>
 Dashboard: http://IP:1880/ui	(For HomeAssistant: http://IP:1880/endpoint/ui)
 Flows: http://IP:1880/#flow
 
@@ -126,14 +125,14 @@ You can find the link to the dashboard like this:<br/>
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard2.png?raw=true) ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard1.png?raw=true)
 
 [Back to top](#index)
-</details>
+
 
 <!-- headings -------------------------------->
 <a id="howto_personalize_customize"></a>
 ## How to personalize or customize
-<details>
+
 It is advised to create a separate tab for your external sources. Any source available in Node Red can be conditioned and used as a sensor in the functions. If you do this in an 'personal tab', then it is likely easier to update later to newer versions. (no guarantees of course)<br/>
 
 [Back to top](#index)
-</details>
+
 
