@@ -41,6 +41,8 @@ Reboot Node Red for the changes to be applied.<br/>
 > [!IMPORTANT]
 > Please also note that this flow writes to disk every 5 minutes. Storage on sd-card is not advised because of possible high wear levels.
 
+------
+
 <a id="node_red_libraries"></a>
 ### Required Node Red libraries/pallets
 - To make use of the dashboard functionality, you need to install the dashboard library.<br/>
@@ -56,7 +58,7 @@ Reboot Node Red for the changes to be applied.<br/>
 
 > [!NOTE]
 > The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo)
-
+------
 <a id="time_zone"></a>
 ### Timezone setup
 If you use a linux version, make sure you set your correct timezone. You can do this by running this command from CLI root and go through the setup process.
