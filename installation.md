@@ -106,7 +106,7 @@ Flows: http://IP:1880/#flow
 
 Once imported, you need to adjust the settings of the MQTT server. <br/>
 1. Add the correct information of your broker
-2. Use QOS: 0 or 1 (maximum for heishamon).
+2. Use QOS: 0 (maximum for heishamon).
 3. Use MQTT v3.1.1 (maximum for heishamon).
 Click on the hamburger icon and then configuration nodes. Find the MQTT broker part, double click it and change to your settings.<br/>
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br/>
