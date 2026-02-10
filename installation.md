@@ -71,4 +71,4 @@ timedatectl
 ```
 If you are running Node Red from within HomeAssistant, follow the instructions from HomeAssistant on how to do that.
 
-[Back](#readme.md)
+[Back](readme.md)
