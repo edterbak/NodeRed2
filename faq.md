@@ -10,31 +10,30 @@
 
 ---
 
-### **Q – I use the Node Red Addon in Home Assistant, how to go to the Node Red Gui for editing?**
+### **Q – I use the Node Red App in Home Assistant, how to go to the Node Red Gui for editing?**
 <details>
-    Most users should visit via a browser: 'http://Your_NodeRed_IP:1880/ui'<br/>
-    In my case this wasn't working, perhaps due to the use of the DuckDNS addon. <br/>
-    Use something like 'https://your.duckdns.org:1880/endpoint/ui/' instead.<br/>
+    Visit via a browser: 'http://<Your_NodeRed_IP>:1880/ui'<br/>
 </details>
 
 ---
 
-### **Q – Can I use both WAR and RTC at the same time?**
+### **Q – Can I use both CCC and RTC at the same time?**
 <details>
-    Yes. If you have both enabled, the WAR function first calculates the SP (Setpoint) depending on outside temperature. Next the RTC function will correct that SP(war) depending on the room temperature. The only SP going to the heat pump will be SP at the end of all the calculations/corrections.
+    Yes. If you have both enabled, the CCC function first calculates the setpoint depending on outside temperature. Next the RTC function will correct that CCC-setpoint depending on the room temperature. The only setpoint going to the heat pump will be SP at the end of all the calculations/corrections.
 </details>
 
 ---
 
-### **Q – If I switch off the heatpomp via the Remote Controller will it disable the automation from the Node Red flow also?**
+### **Q – If I switch off the heatpomp via the Remote Controller will it disable the Node Red flow too?**
 <details>
-    No, both will work separately. If you turn the heat pump on via the Remote Controller, the pump will switch on.<br/>
-    Keep in mind however that if the Node Red flow decides it time to adjust some settings it will act accordingly and overwrite settings.<br/>
+    No, both will work separately. If you turn the heat pump on/off via the Remote Controller, the pump will just switch on/off.<br/>
+    Keep in mind however that when the pump is switched off and a scheduled task in Node Red is triggered, it can just turn on the pump for that.<br/>
+    This is important to keep in mind when doing maintenance. 
 </details>
 
 ---
 
-### **Q – I know the function SOFTSTART is experimental, but can you explain what this function does?**
+### **Q – Can you explain what the SoftStart function do?**
 <details>
     The idea behind this function is that when the compressor is just started, the frequency of the compressor goes up to 45+Hz. Well out of the efficient range. This is caused by the inner controller of the heat pump. When turned on, it 'wants' to see the impact of the compressor. It looks at the returning water temperature for this. Only when the water temperature returning towards the heat pump is nearing the target temperature, it will start to lower the compressor frequency and get in a stable/efficient mode. Throttling... <br/>
     This late throttling behavior can be quiet energy consuming, it can cause the heat pump to generate too much heat at the start and turn off again. <br/><br/>
