@@ -3,17 +3,17 @@
 ## Requirements
 **What do I need to make use of this flow?**<br/>
 
-From looking at the diagram in the introduction page you could notice you require some basic things.
+If you have looked at the diagram in the introduction page, you could notice you require some basic things for this to work.
 
 <ins>You require:</ins>
-- The heishamon module
+- A Panasonic heatpump. *(It does not work with any other brand)*
+- The heishamon module (Store: https://www.tindie.com/stores/thehognl/)
 - A functional MQTT broker. ([Mosquitto](https://mosquitto.org/)/[HiveMQ](https://www.hivemq.com/)/[EMQX](https://www.emqx.io/)/etc.)  
-- A functional Node Red instance.
+- A functional Node Red instance. [Node Red](https://nodered.org/)
 <br>
 
 <ins>And on the human side:</ins>
-- Time
-- Patience
+- Time and patience
 - Some IT awareness and interest
 <br>
 
