@@ -81,14 +81,21 @@ So, what can it do.
 ### Dashboard impression
 Here are just a few images to show the dashboard. For more images look >> here <<
 
-![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br/>
+*Home dashboard*<br>
+<img src="images/dashboard/home_01.png" width=50%>
+<br>
+
+*RoomTemperatureCorrection function*<br>
+<img src="images/dashboard/function_rtc_01.png" width=50%>
+<br><br>
+
 
 
 [Back to top](#index)
 
 ********
 <a id="installation"></a>
-<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/install.png" width="500">
+<img src="images/banners/install.png" width="500">
 
 <!-- headings -------------------------------->
 <a id="requirements"></a>
