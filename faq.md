@@ -75,3 +75,8 @@
     Give those inputs.sensors each an own [Link Out] node<br/>
     Connect those [Link Out] nodes to the already existing [Link In] nodes by double clicking the [Link Out] node and select the corresponding one from the list.<br/>
     Some images to explain this:<br/>
+
+---
+
+[Back](readme.md)
+
