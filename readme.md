@@ -28,7 +28,7 @@
   - [Guidelines and tips](#guidelines_and_tips)
     - [How to personalize or customize](#howto_personalize_customize)  
 - [Updating instructions](#updating)
-- [FAQ](#faq)
+- [FAQ](faq.md)
 - [Acknowledgments](#acknowledgments)
 - [Donations](#donations)  
 
