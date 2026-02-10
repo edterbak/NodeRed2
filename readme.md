@@ -29,8 +29,8 @@
     - [How to personalize or customize](#howto_personalize_customize)  
 - [Updating instructions](#updating)
 - [FAQ](faq.md)
-- [Acknowledgments](#acknowledgments)
-- [Donations](#donations)  
+- [Acknowledgments](acknowledgments.md)
+- [Donations](donations.md)  
 
 ********
 
@@ -276,31 +276,6 @@ Miscellaneous Fixes:</br>
 changes compared to 25.00 will be listed here over time.
 
 [Back to top](#index)
-********
-<!-- headings -------------------------------->
-<a id="acknowledgments"></a>
-## Acknowledgments
-<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/acknowledgments.png" width="500">
-
-* []() Egyras: The original creator of Heishamon. https://github.com/Egyras
-* []() Egyras: For the MQTT topic list - https://github.com/Egyras/HeishaMon/blob/master/MQTT-Topics.md
-* []() CurlyMo: The original calculation for automagical 'Stooklijn' correction - https://gathering.tweakers.net/forum/list_messages/2039982#Automagische_stooklijncorrectie
-* []() AUijtdehaag: The COP calculation - https://github.com/Dylantje/WP-Heishamon-sripts/blob/master/WP%20LUA%20COP%20berekening
-* []() lampy25. For unselfishly giving supportive feedback and good idea's. Thanks!
-* []() timovd for his contributions. ! Thanks.
-* []() E1cid from Node Red forum, for the help with the bar-chart. 
-* []() Javaboon for his assistance in the Solar functionality.
-* []() Maarten69 for his feature requests and helping with testing. MEGAAA THANKS :).
-* []() Maarten69 (yes, again) for contributing to this project and helping with a FAQ !!!!! :).
-* []() Aikon for contributing to this project and helping with layout/textual improvements.
-* []() Maarten69 for contributing to this project. New additions can be expected from him on this project. Mega sweet!!
-* []() MikeyMan for contributing with testing and discussing a lot about this. Good testing is very valuable!
-* []() Blb4, Aziona, ConQuestador and BazemanKM for their continued time and involvement.
-* []() Hemertje voor zijn tomeloze energie en toevoegingen! 😃
-
-
-[Back to top](#index)
-
 ********
 
 **My request to you:**<br/>
