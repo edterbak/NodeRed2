@@ -1,26 +1,16 @@
-  - [How to create a backup](#howto_backup)  
-  - [How to update](#howto_update)
-
-    
-
-<img src="https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/banners/Updating.png" width="500">
-
-<!-- headings -------------------------------->
-<a id="howto_backup"></a>
 ## How to create a backup of your current flow
-<details>
+
 There is no easy solution currently know by me to update only changed nodes or flows. <br/>
 First: Create a backup of current version. Select all tabs by holding CTRL. Then in the right menu select Export > Download. <br/><br/>
 
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/Backup_animation1.gif) <br/>RightMouseClick on the GIF and select open in a new tab to see it full screen.<br/>
-[Back to top](#index)
-</details>
 
-<!-- headings -------------------------------->
-<a id="howto_update"></a>
+[Back](readme.md)
+
+--------
 
 ## How to update to a newer version
-<details>	
+
 Update to newer version:<br/>	
 I found it is easiest to:<br/> 
 1, remove the tabs, WP MQTT, WP Dash, WP Control, WP Solar, WP Scheduler completely<br/> 
@@ -33,5 +23,6 @@ I found it is easiest to:<br/>
 If there are better ideas about this, please inform me. <br/> <br/>
 
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/Update_animation_final.gif) <br/>RightMouseClick on the GIF and select open in a new tab to see it full screen.<br/>
-[Back to top](#index)	
-</details>
+
+[Back](readme.md)
+
