@@ -12,11 +12,9 @@
 
 ********
 
-**About v26.2.1 Stable**
+**Current version:** v26.2.1 Stable
+**Release date:** 2026-02-10
 
-Important note: There are breaking changes compared to v25. Please read the xxx section<br>
-Also read the tooltips from the menu items to set it correctly.<br>
-If you are updating from a previous version, please check and verify all settings again.
 
 ********
 
