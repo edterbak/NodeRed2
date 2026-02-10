@@ -79,24 +79,31 @@ flowchart LR
 	B <---> C{{C
 		MQTT Broker}}
     C <---> D(D
-		Application X)
+		Node Red)
 	style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 * []() A > B: The Panasonic heatpump communicates with the heishamon board
 * []() B > C: Heishamon communicates with your MQTT broker
-* []() C > D: Our own application communicates with the MQTT brokker
+* []() C > D: Node Red communicates with the MQTT brokker
 
-As Application X, I have chosen to use **Node Red** (=NR) as FrontEnd and automation platform. 
-In this repository you will find all about this Node Red flow.
+I have chosen to use **Node Red** (=NR) as FrontEnd and automation platform. 
+In this repository you will find out all about this Node Red flow.
 
-### What can this flow do for you (simple benefits)
-With this Node‑RED flow you can:
+### What can this Node Red flow do for you (simple benefits)
+So, what can it do.
+* Offers **local control**. No dependancy on Panasonic Claud at all.
+* It provides a nice **dashboard**.
+* Shows detailed **graphs and charts** with real‑time or historical data.
+* Allows advanced **custom functions** such as CCC, RTC, SoftStart, and Solar‑driven DHW optimizations.
+* Works with **any sensor** for the custom functions. 
+* **Automations** using schedules with conditions.
 
-* Control your heat pump locally via dashboard, without relying on Panasonic's cloud.
-* See detailed real‑time and historical data (temperatures, energy, operation mode, etc.) via dashboards.
-* Use advanced custom functions such as CCC, RTC, SoftStart, and Solar‑driven DHW optimizations.
-* Use your any custom sensor for the custom functions, no Panasonic default sensors required. 
-* Automate your heat pump using schedules, conditions, sensors, or external data sources.
+### Quick peek...
+
+Here are a couple of images to show the dashboard. For more images look >> here <<
+
+![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br/>
+
 
 
 [Back to top](#index)
