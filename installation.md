@@ -1,18 +1,12 @@
-<a id="installation2"></a>
-
-The installation has been split into two parts.
-1. [Requirements for Node Red](#requirements)
-	- [Persistant storage](#persistant_storage)
- 	- [Required Node Red libraries/pallets](#node_red_libraries)
-  - [Node Red requirements](#requirements)
-
 <a id="requirements"></a>
 ## Requirements for Node Red<br/>
 
-A - Persistent storage.<br>
-B - Required Node Red libraries/pallets<br>
-C - TimeZone setup<br>
-D - Write to disk frequency (optional)<br>
+1. [Requirements for Node Red](#requirements)
+	- [Persistant storage](#persistant_storage)
+ 	- [Required Node Red libraries/pallets](#node_red_libraries)
+  	- [Timezone setup](#time_zone)
+
+****
 
 <a id="persistant_storage"></a>
 ### Persistant storage
@@ -63,6 +57,7 @@ Reboot Node Red for the changes to be applied.<br/>
 > [!NOTE]
 > The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo)
 
+<a id="time_zone"></a>
 ### Timezone setup
 If you use a linux version, make sure you set your correct timezone. You can do this by running this command from CLI root and go through the setup process.
 ```
@@ -74,4 +69,4 @@ timedatectl
 ```
 If you are running Node Red from within HomeAssistant, follow the instructions from HomeAssistant on how to do that.
 
-[Back to top](#index)
+[Back](#readme.md)
