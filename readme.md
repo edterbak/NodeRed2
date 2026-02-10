@@ -25,6 +25,7 @@ If you are updating from a previous version, please check and verify all setting
 - [Introduction](#introduction)  
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Installation2](#installation/installation2)
   - [First installation](#first_installation)
   - [Flow installation](#howtoinstallnr)  
 - [Starting for the First time](#first_start)
