@@ -1,12 +1,21 @@
 <a id="requirements"></a>
 ## Installation details for Node Red<br/>
 
-1. [Node Red](#requirements)
+1. [Node Red installation](#requirements)
 	- [Persistant storage](#persistant_storage)
  	- [Required Node Red libraries/pallets](#node_red_libraries)
   	- [Timezone setup](#time_zone)
+2. [Flow installation](#flow)
 
 ****
+
+## Node Red installation
+There are some things required for the Node Red installation itself. <br>
+- First; You want your data and settings to survive a reboot, so persistent storage is a must. <br>
+- Second; The flow makes use of some node red libraries (or pallettes). These need to be installed.<br>
+- Third; It is advicable to know if you system is setupt with the correct time/date. <br>
+
+These will be explained here. <br>
 
 <a id="persistant_storage"></a>
 ### Persistant storage
@@ -58,7 +67,9 @@ Reboot Node Red for the changes to be applied.<br/>
 
 > [!NOTE]
 > The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo)
+ 
 ------
+
 <a id="time_zone"></a>
 ### Timezone setup
 If you use a linux version, make sure you set your correct timezone. You can do this by running this command from CLI root and go through the setup process.
@@ -70,5 +81,13 @@ You can check if it was successful by executing this command
 timedatectl 
 ```
 If you are running Node Red from within HomeAssistant, follow the instructions from HomeAssistant on how to do that.
+
+[Back](readme.md)
+
+----------
+
+<a id="flow"></a>
+## Flow installation
+This part will be about the flow installation.
 
 [Back](readme.md)
