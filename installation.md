@@ -1,3 +1,4 @@
+<a id="top"></a>
 <a id="requirements"></a>
 ## Installation details for Node Red<br/>
 
@@ -16,6 +17,8 @@ There are some things required for the Node Red installation itself. <br>
 - Third; It is advicable to know if you system is setup with the correct time/date. <br>
 
 These will be explained here. <br>
+
+[Back](readme.md)
 
 ****
 
@@ -52,6 +55,8 @@ Reboot Node Red for the changes to be applied.<br/>
 > [!IMPORTANT]
 > Please also note that this flow writes to disk every 5 minutes. Storage on sd-card is not advised because of possible high wear levels.
 
+[Top](#top) / [Back](readme.md)
+
 ****
 
 <a id="node_red_libraries"></a>
@@ -69,6 +74,8 @@ Reboot Node Red for the changes to be applied.<br/>
 
 > [!NOTE]
 > The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo) Despite that, it still works fine.
+
+[Top](#top) / [Back](readme.md)
  
 ****
 
@@ -84,7 +91,7 @@ timedatectl
 ```
 If you are running Node Red from within HomeAssistant, follow the instructions from HomeAssistant on how to do that.
 
-[Back](readme.md)
+[Top](#top) / [Back](readme.md)
 
 ****
 
@@ -113,21 +120,23 @@ You can also connect external signals to the flow in this tab.
 ** Note 1: The Panasonic Room Thermostat is not very accurate which might cause bad temperature control. <br/>
 ** Note 2: The Outside temperature sensor on the Panasonic might be subject to heating up due to direct sunlight. This can also have a negative impact on the functions. Personally I use OpenWeatherMap source for outside temperature, but anything is possible.<br/>
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
+
+*********
 
 ### Opening the dashboard
 You can find the link to the dashboard like this:<br/>
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard2.png?raw=true) ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard1.png?raw=true)
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
+********
 
-<!-- headings -------------------------------->
 <a id="howto_personalize_customize"></a>
 ## How to personalize or customize
 
 It is advised to create a separate tab for your external sources. Any source available in Node Red can be conditioned and used as a sensor in the functions. If you do this in an 'personal tab', then it is likely easier to update later to newer versions. (no guarantees of course)<br/>
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
-
+******
