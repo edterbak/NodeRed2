@@ -88,6 +88,7 @@ If you are running Node Red from within HomeAssistant, follow the instructions f
 
 ****
 
+<a id="flow"></a>
 ## Flow installation:<br/>
 Dashboard: http://IP:1880/ui	(For HomeAssistant: http://IP:1880/endpoint/ui)
 Flows: http://IP:1880/#flow
