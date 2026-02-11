@@ -30,7 +30,7 @@
  		- [Required Node Red libraries/pallets](installation.md#required-node-red-librariespallets)
   		- [Timezone setup](installation.md#timezone-setup)
     - [Flow](installation.md#flow)
-- [Flow usage](#flow)
+- [Flow usage](flow_usage.md)
   - [Quick start](#quick_start)
   - [Setup Guidelines](#guidelines)
   - [Tips](#tips)
