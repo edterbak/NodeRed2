@@ -36,8 +36,9 @@
   - [Functions](flow_usage.md#functions)
   - [Tips](flow_usage.md#tips)
 - [Update instructions](update_instructions.md)
-- [FAQ](faq.md)
 - [Changes](changes.md)
+- [Dashboard screenshots](dashboard.md)
+- [FAQ](faq.md)
 - [Acknowledgments](acknowledgements.md)
 - [Donations](donations.md)  
 
