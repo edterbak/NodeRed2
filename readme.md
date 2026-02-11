@@ -36,7 +36,7 @@
     - [How to personalize or customize](#howto_personalize_customize)  
 - [Updating instructions](#updating)
 - [FAQ](faq.md)
-- [Acknowledgments](acknowledgments.md)
+- [Acknowledgments](acknowledgements.md)
 - [Donations](donations.md)  
 
 ********
