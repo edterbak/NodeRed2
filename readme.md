@@ -91,6 +91,6 @@ Here are just a few images to show the dashboard. For more images look >> here <
 *RoomTemperatureCorrection function*<br>
 <img src="images/dashboard/function_rtc_01.png" width=50%>
 <br><br>
-[Back](readme.md)
+[Back to top](#top)
 
 ********
