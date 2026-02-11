@@ -18,7 +18,7 @@ If you have looked at the diagram in the introduction page, you could notice you
 <br>
 
 These items are the most basic things you need to have.<br>
-The installation process these items are documented well in other places like youtube or various forums, or you can search for this. Anything written here will be out of date quickly anyway.<br>
+The installation process of the heishamon module, node red or an MQTT broker, are well documented in other places like youtube or various forums. Better to search for this. Anything written here runs the risk of being out of date quickly.<br>
 
 <ins>You do not require:</ins>
 - a database backend
