@@ -34,10 +34,10 @@
 
 ********
 
-<!-- headings -------------------------------->
-
 ## Abstract
-This repository holds a **Node Red flow** which gives you a user friendly dashboard for local control of your Panasonic heatpump via heishamon. <br>
+This repository holds a **Node Red flow** which gives you a user friendly dashboard for local control of your Panasonic heatpump.<br>
+
+********
 
 <a id="introduction"></a>
 ## Introduction
@@ -68,6 +68,8 @@ flowchart LR
 I have chosen to use **Node Red** (=NR) as FrontEnd and automation platform. 
 In this repository you will find out all about this Node Red flow.
 
+********
+
 ## What can this Node Red flow do for you (simple benefits)
 So, what can it do.
 * Offers **local control**. No dependancy on Panasonic Claud at all.
@@ -87,16 +89,6 @@ Here are just a few images to show the dashboard. For more images look >> here <
 *RoomTemperatureCorrection function*<br>
 <img src="images/dashboard/function_rtc_01.png" width=50%>
 <br><br>
-
-
-[Back to top](#index)
+[Back](readme.md)
 
 ********
-<a id="installation"></a>
-<img src="images/banners/install.png" width="500">
-
-********
-
-
-[Back to top](#index)
-<p align="right">(<a href="#top">back to top</a>)</p>
