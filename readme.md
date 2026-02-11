@@ -37,6 +37,7 @@
   - [Tips](flow_usage.md#tips)
 - [Update instructions](update_instructions.md)
 - [FAQ](faq.md)
+- [Changes](changes.md)
 - [Acknowledgments](acknowledgements.md)
 - [Donations](donations.md)  
 
