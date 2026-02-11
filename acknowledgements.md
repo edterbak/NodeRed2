@@ -1,4 +1,3 @@
-<!-- headings -------------------------------->
 ## Acknowledgments
 
 * []() Egyras: The original creator of Heishamon. https://github.com/Egyras
@@ -18,4 +17,10 @@
 * []() Hemertje voor zijn tomeloze energie en toevoegingen! 😃
 
 
-[Back to top](#index)
+## Thank you
+
+Ever person in the list above has been a big help to me in one way or another. Do not underestimate your role and value it holds for me. <br>I would not have kept the energy and drive to keep this project alive without all of these enthusiastic people. Bouncing back and forth idea's, having good discussions and always with a positive vibe. I appreciate and value all of you. Thank you all very much!!! 
+
+Obviously, I am proud of the thing we created together.
+
+[Back](readme.md)
