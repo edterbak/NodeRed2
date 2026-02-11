@@ -17,7 +17,6 @@
 **Current version:** v26.2.1 Stable<br>
 **Release date:** 2026-02-10
 
-
 ********
 
 <a id="index"></a>
@@ -46,6 +45,8 @@
 
 ## Abstract
 This repository holds a **Node Red flow** which gives you a user friendly dashboard for local control of your Panasonic heatpump.<br>
+
+[Top](#top)
 
 ********
 
@@ -78,6 +79,8 @@ flowchart LR
 I have chosen to use **Node Red** (=NR) as FrontEnd and automation platform. 
 In this repository you will find out all about this Node Red flow.
 
+[Top](#top)
+
 ********
 
 ## What can this Node Red flow do for you (simple benefits)
@@ -99,6 +102,7 @@ Here are just a few images to show the dashboard. For more images look [>> here 
 *RoomTemperatureCorrection function*<br>
 <img src="images/dashboard/function_rtc_01.png" width=50%>
 <br><br>
-[Back to top](#top)
+
+[Top](#top)
 
 ********
