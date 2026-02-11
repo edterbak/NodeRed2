@@ -25,6 +25,9 @@
 - [Introduction](#introduction)
 - [Requirements](requirements.md)
 - [Installation](installation.md)
+	- [Persistant storage](installation.md#persistant-storage)
+ 	- [Required Node Red libraries/pallets]
+  	- [Timezone setup](#time_zone)
 - [Starting for the First time](#first_start)
   - [Starting procedure](#starting_procedure)
   - [Guidelines and tips](#guidelines_and_tips)
