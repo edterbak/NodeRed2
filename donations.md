@@ -12,6 +12,8 @@ But most important. In no way you are obliged to make any donation!! The flow re
 > **Update:** It has been little over a year now since I put up a donation button on the github page...<br><br>
 > I feel humbled by the donations and more so by the kind words that came with it. The donations are absolutly **not** required and I truely did not expect this at all. So again, I am humbled by the appreciation shown. Thank you all.
 
+<br>
+
 <span style="display:inline-block; margin-right:0px;">
   <a href="https://www.paypal.com/donate?business=ed_terbak%40hotmail.com&no_recurring=0&item_name=Support+my+work&currency_code=EUR">
     <img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?style=for-the-badge&logo=paypal&logoColor=white">
@@ -22,5 +24,7 @@ But most important. In no way you are obliged to make any donation!! The flow re
     <img alt="Buy me a Ko‑fi" src="https://img.shields.io/badge/Buy%20me%20a-Ko%E2%80%91fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white">
   </a>
 </span>
+
+*********
 
 [Back](readme.md)
