@@ -68,7 +68,7 @@ flowchart LR
 I have chosen to use **Node Red** (=NR) as FrontEnd and automation platform. 
 In this repository you will find out all about this Node Red flow.
 
-### What can this Node Red flow do for you (simple benefits)
+## What can this Node Red flow do for you (simple benefits)
 So, what can it do.
 * Offers **local control**. No dependancy on Panasonic Claud at all.
 * It provides a nice **dashboard**.
