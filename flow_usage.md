@@ -3,7 +3,11 @@
 
 <a id="quick_start"></a>
 ### Quick start
-Here are the minimal things to do / set.
+Here is a quicklist for things to check or set.
+- Check heishamon config
+- Check MQTT connection
+- Check Persistent storage
+- Set TimeZone
 
 #### Heishamon config
 When you start the Node Red flow for the first time, it requires some time to read the data from heishamon. This can take up to 10 minutes, depending on your heishamon setting. My settings are given below. For me they work fine.
@@ -27,7 +31,7 @@ To set the correct timezone within Node Red dashboard:
 - Select your time zone<br>
 - Press **[Save]**
 
-#### Persistant storage
+#### Persistent storage
 During the installation of Node Red and the flow, you have enabled persistent storage. To verify this has been done correctly, you need to look at the logs.
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > LOG** <br>
