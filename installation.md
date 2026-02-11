@@ -13,9 +13,11 @@
 There are some things required for the Node Red installation itself. <br>
 - First; You want your data and settings to survive a reboot, so persistent storage is a must. <br>
 - Second; The flow makes use of some node red libraries (or pallettes). These need to be installed.<br>
-- Third; It is advicable to know if you system is setupt with the correct time/date. <br>
+- Third; It is advicable to know if you system is setup with the correct time/date. <br>
 
 These will be explained here. <br>
+
+****
 
 <a id="persistant_storage"></a>
 ### Persistant storage
@@ -50,7 +52,7 @@ Reboot Node Red for the changes to be applied.<br/>
 > [!IMPORTANT]
 > Please also note that this flow writes to disk every 5 minutes. Storage on sd-card is not advised because of possible high wear levels.
 
-------
+****
 
 <a id="node_red_libraries"></a>
 ### Required Node Red libraries/pallets
@@ -66,9 +68,9 @@ Reboot Node Red for the changes to be applied.<br/>
 		https://flows.nodered.org/node/node-red-node-ui-table
 
 > [!NOTE]
-> The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo)
+> The Dashboard 1.0 pallette is indeed depricated by Node Red. But I have not migrated to Dashboard 2.0 yet. (=ToDo) Despite that, it still works fine.
  
-------
+****
 
 <a id="time_zone"></a>
 ### Timezone setup
@@ -84,15 +86,7 @@ If you are running Node Red from within HomeAssistant, follow the instructions f
 
 [Back](readme.md)
 
-----------
-
-<a id="flow"></a>
-## Flow installation
-This part will be about the flow installation.
-
-[Back](readme.md)
-
----------------
+****
 
 ## Flow installation:<br/>
 Dashboard: http://IP:1880/ui	(For HomeAssistant: http://IP:1880/endpoint/ui)
