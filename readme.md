@@ -89,8 +89,8 @@ So, what can it do.
 * Works with **any sensor** for the custom functions. 
 * **Automations** using schedules with conditions.
 
-### Dashboard impression
-Here are just a few images to show the dashboard. For more images look >> here <<
+### A quick dashboard impression
+Here are just a few images to show the dashboard. For more images look [>> here <<](dashboard.md)
 
 *Home dashboard*<br>
 <img src="images/dashboard/home_01.png" width=50%>
