@@ -97,8 +97,13 @@ If you are running Node Red from within HomeAssistant, follow the instructions f
 
 <a id="flow"></a>
 ## Flow installation:<br/>
-Dashboard: http://IP:1880/ui	(For HomeAssistant: http://IP:1880/endpoint/ui)
-Flows: http://IP:1880/#flow
+### Download the latest flow file
+
+from the github page. Store
+Go to your Node Red flow editor. 
+
+Dashboard: http://<host-IP>:1880/ui	(For HomeAssistant: http://<host-IP>:1880/endpoint/ui)
+NodeFlow ed: http://<host-IP>:1880/#flow
 
 * []() In NR, click on the hamburger icon (three horizontal stripes) in the top right corner
 * []() Select Import
