@@ -130,7 +130,7 @@ The flow is not aware yet of your MQTT broker. You need to adjust the settings o
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br><br>
 You will see a list of configuration nodes appear below it.<br>
 <br>
-- Find and Double-click **MQTT (x.x.x.x)** <br>
+- Find and Double-click MQTT (x.x.x.x)<br>
 - Change/correct all settings of this node.
 	- Name: Rename x.x.x.x to a name of your own<br>
 	- Server: (if not present, add) IP adress of your MQTT brokker<br>
