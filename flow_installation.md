@@ -7,13 +7,17 @@ In short, the steps you need to perform are:<br>
 3 - Adjust settings<br>
 4 - Deploy<br>
 
-> [!NOTE]
+> [!IMPORTANT]
 > These steps assumes this is a clean installation / deployment. 
 > If you are updating, please follow the [update instructions](update_instructions.md)
+
+*******
 
 ### 1 Download
 - On the main page you will find the file **"flows.json"**. This file contains all the flows. Look for the latest version.<br>
 - **Download** it and save it on your local drive.<br>
+
+------------
 
 ### 2 Import the file
 Go to your Node Red flow editor. `http://<host-IP>:1880/#flow` (or `http://<host-IP>:1880/endpoint/ui` in HomeAssistant)<br>
@@ -23,15 +27,20 @@ Go to your Node Red flow editor. `http://<host-IP>:1880/#flow` (or `http://<host
 - Click on **Import**
 - Do **NOT** press [Deploy] yet
 
+-----------
+
 ### 3 Adjust settings
 There are some mandatory settings need to be adjusted. <br>
 Additionally there are some optional things to change.<br>
+
+-----------
 
 #### 3.1 MQTT `(mandatory)`
 The flow is not aware yet of your MQTT broker. You need to adjust the settings of the MQTT configuration node.<br>
 - In the upper right corner, click the **hamburger icon** again<br>
 - Click **Configuration nodes**<br>
-![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)<br><br>
+	 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)
+	
 You will see a list of configuration nodes appear below it.<br>
 <br>
 - Find and Double-click MQTT (x.x.x.x)<br>
@@ -42,18 +51,41 @@ You will see a list of configuration nodes appear below it.<br>
 	- Port: 1833 (default)<br>
 	- Protocol: MQTT v3.1.1 (maximum for heishamon)<br>
  	- QOS: 0 (maximum for heishamon)<br>
-	
 
-Click on the hamburger icon and then configuration nodes. Find the MQTT broker part, double click it and change to your settings.<br/>
+> [!IMPORTANT]
+> If you see one MQTT config node with **x.x.x.x**, you still need to modify it<br>
+> If you see multiple MQTT config nodes, high chance you need to remove one
+
+---------
 
 #### 3.2 Theme `(optional)`
+Node Red allows you to personalize your dashboard.
+Just below the hamburger icon (from chapter 3.1 MQTT) you see a small drop-down box.
+- Click the **drop-down** and select **Dashboard**
+- Click on **Theme** <br>
+  Select your preferred Style (dark, light or custom)
+
+----------
+
 #### 3.3 Menu style `(optional)`
+Node red allows you to modify some menu behaviour of the dashboard.
+Just below the hamburger icon (from chapter 3.1 MQTT) you see a small drop-down box.
+- Click the **drop-down** and select **Dashboard**
+- Click on **Site** <br>
+  Here you can modify the Dashboard Title, the sidebar look and feel, swiping behavior. 
 
-<br><br><br><br>
+**********
 
-Dashboard: http://<host-IP>:1880/ui	(For HomeAssistant: http://<host-IP>:1880/endpoint/ui)
-NodeFlow ed: http://<host-IP>:1880/#flow
+### 2 Deploy the flow
+If you make changes in Node Red, the changes are not instantly live. You still need to deploy the changes. 
+- Click on **Deploy** in the upper right corner.<br>
 
+> [!TIP]
+> Click the **drop-down** icon on the [Deploy] button and select **Modified Nodes**<br>
+> <br>
+> Selecting this deploy method, makes deploying small changes to a flow a lot less impactfull for the entire system. It only deploys nodes that have been changed. So if you make a small modification somewhere, only those changes will be re-initialized. 
+
+*********
 
 Once imported,
 
