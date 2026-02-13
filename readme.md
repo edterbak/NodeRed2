@@ -28,7 +28,7 @@
 		- [Persistant storage](nodered_installation.md#persistant-storage)
  		- [Required Node Red libraries/pallets](nodered_installation.md#required-node-red-librariespallets)
   		- [Timezone setup](nodered_installation.md#timezone-setup)
-    - [Flow](flow_insttallation.md#flow)
+    - [Flow](flow_installation.md)
 - [Flow usage](flow_usage.md)
   - [Quick start](flow_usage.md#quick_start)
   - [Setup Guidelines](flow_usage.md#guidelines)
