@@ -76,7 +76,7 @@ Just below the hamburger icon (from chapter 3.1 MQTT) you see a small drop-down 
 
 **********
 
-### 2 Deploy the flow
+### 4 Deploy the flow
 If you make changes in Node Red, the changes are not instantly live. You still need to deploy the changes. 
 - Click on **Deploy** in the upper right corner.<br>
 
