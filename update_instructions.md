@@ -1,12 +1,12 @@
 ## Updating the flow
 
 To update the flow to a newer version, you need to perform the next steps:<br>
-1 - Create a backup
-2 - Download the latest flow.json
-3 - Remove current version
-4 - Import new version
-5 - Adjust settings
-6 - Deploy
+1. Create a backup<br>
+2. Download the latest flow.json<br>
+3. Remove current version<br>
+4. Import new version<br>
+5. Adjust settings<br>
+6. Deploy<br>
 
 The steps will be described in more details below
 
