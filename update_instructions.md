@@ -24,6 +24,26 @@ Go to the github page and save the flow.json file to your local drive.
 
 ### 3 - Remove current version
 
+#### 3.1 - Remove all tabs
+In the Node Red flow-editor, you need to:
+- **Select** all flow-tabs which start with [WP ] on the top of the screen
+- Press **[DEL]**
+- Wait until it is finished
+
+> [!WARNING]
+> Do **NOT** remove your personal **[WP Personal]** tab.
+
+> [!TIP]
+> - To multi-select specific tabs, use [CTRL] + click
+> - To multi-select a row of tabs, use [SHIFT] + click
+
+> [!CAUTION]
+> If you select too many tabs and press [DEL], the **browser** might **time-out**.
+> In that case, select "Wait for browser" to finish or if that does not work, simply reduce the amount of selected tabs for deletion.
+
+
+#### 3.2 - Remove dashboard items
+
 yada
 ********
 
