@@ -28,7 +28,6 @@ Go to your Node Red flow editor. `http://<host-IP>:1880/#flow` (or `http://<host
 - Do **NOT** press [Deploy] yet
 
 -----------
-
 ### 3 Adjust settings
 There are some mandatory settings need to be adjusted. <br>
 Additionally there are some optional things to change.<br>
