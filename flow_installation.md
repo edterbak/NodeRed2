@@ -40,6 +40,9 @@ The flow is not aware yet of your MQTT broker. You need to adjust the settings o
 - In the upper right corner, click the **hamburger icon** again<br>
 - Click **Configuration nodes**<br>
 	 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard3.png?raw=true)
+
+> [!IMPORTANT]
+> If you already have a MQTT broker set up and configured correctly, you can remove the "x.x.x.x" node.
 	
 You will see a list of configuration nodes appear below it.<br>
 <br>
