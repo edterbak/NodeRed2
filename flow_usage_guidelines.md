@@ -18,8 +18,15 @@ Why? You need to:<br>
 Only after you have confidence the dashboard is working correctly, continue with the next steps.
 
 ### Rule 2: Enable functions one-by-one
+Do not just enable all functions after first start and assume it works. You need to configure each function and verify it is working according to your expectation.<br>
+Once configured correctly, wait and look at the result for a couple of days.
 
+### Rule 3: If you think a function is behaving badly, disable the function
+Sometimes it appears as if a function is not working as designed. Very easily it is concluded the function is at fault. <br>
+First verify it is the function that is at fault by disabling the function.
 
+> Example:
+> If you think you have too short compressor-runs and suspect the SoftStart function is at fault, disable it and see what the behaviour is without it.
 
 ### The custom functions
 There are a number of custom functions in the dashboard. 
