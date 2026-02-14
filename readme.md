@@ -33,7 +33,7 @@
      	- [Adjust settings](flow_installation.md#3-adjust-settings)
       	- [Deploy](flow_installation.md#4-deploy-the-flow)
 - [Flow usage](flow_usage.md)
-  - [Quick start](flow_usage_quickstart)
+  - [Quick start](flow_usage_quickstart.md)
   - [Setup Guidelines](flow_usage_guidelines.md)
   - [Functions](flow_usage_functions.md)
   - [Tips](flow_usage.md#tips)
