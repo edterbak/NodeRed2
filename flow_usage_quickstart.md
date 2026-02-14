@@ -73,7 +73,8 @@ You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 *******
 
 ### When Heating mode = Compensation Curve
-You should know that you can operate the heatpump in two heating modes:
+We need to make sure the <ins>Node Red CCC settings</ins> matches the <ins>Panasonic Compensation Curve settings</ins>.<br>
+First, you should know what your heating modes is:
 - Direct
 - Compensation Curve
 
