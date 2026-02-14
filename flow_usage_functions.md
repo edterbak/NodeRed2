@@ -1,5 +1,5 @@
 <!-- headings -------------------------------->
-<a id="functions"></a>
+<a id="top"></a>
 ## Custom functions
 The flow contains some custom functions. 
   - [Custom functions](#functions)
@@ -26,7 +26,7 @@ You can set a default (low) maximum water flow. This is active when both operati
 <br>
 Note: Do not set the maximum flow too low. It causes irratic behavior and a LOT of stop/starts. 
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
 <!-- headings -------------------------------->
 <a id="war"></a>
@@ -40,7 +40,7 @@ weather dependent temperature control.
 
 You can import / export settings to the panasonic heat pump.
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
 <!-- headings -------------------------------->
 <a id="rtc"></a>
@@ -54,7 +54,7 @@ You can set the room target temperature, the temperature limits and you can set 
 
 Additionally it is possibility to use automation's. To have the pump shut down when above a trigger temperature and turn back ON again below a revert temperature. 
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
 <!-- headings -------------------------------->
 <a id="softstart"></a>
@@ -74,7 +74,7 @@ This Quietmode (when switched on) will put the heat pump in the Quietmode (level
 When the compressor turns on, the Quietmode will remain active for an amount of time and after this time switches back to the previous Quietmode (if set).<br/>
 You can specify this fallback time in the Setup - Quietmode time (default 5 min).<br/>
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
 <!-- headings -------------------------------->
 <a id="solar2dhw"></a>
@@ -85,7 +85,7 @@ The aim of this function is to increase efficiency (and save cost) by utilizing 
 When there is solar energy in abundance, you can tell the heat pump to use that energy to heat up your DHW water tank. 
 To determine if there is enough solar energy, you need any form of power measurement. This can be a P1 power meter, or a meter directly behind your panels.  
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
 <!-- headings -------------------------------->
 <a id="scheduler"></a>
@@ -115,5 +115,5 @@ Note: Make sure the native panasonic scheduler (in the controller) is disabled t
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_scheduler_conditions.png?raw=true)  
 Each line in the condition section is a blocking condition. If the condition is met, the scheduled task will be blocked.  
 
-[Back to top](#index)
+[Top](#top) / [Back](readme.md)
 
