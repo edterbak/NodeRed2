@@ -1,11 +1,12 @@
 <a id="top"></a>
 ## Quick start
 Here is a shortlist for things you <ins>need</ins> to do or check after first deployment.
-- Check heishamon config
-- Check Persistent storage
-- Check MQTT connection
-- Set time-zone
-- When Heating mode = Compensation Curve
+1. Check heishamon config
+2. Check Persistent storage
+3. Check MQTT connection
+4. Set time-zone
+5. When (HEAT) Heating mode = Compensation Curve
+6. When (COOL) Heating mode = Compensation Curve
 
 Make sure you do them.
 
@@ -13,7 +14,7 @@ Make sure you do them.
 
 ********
 
-### Heishamon config
+### 1 - Heishamon config
 When you start the Node Red flow for the first time, it requires some time to read the data from heishamon. This can take up to 10 minutes, depending on your heishamon setting. My settings are given below. For me they work fine.
 
 | Config item  | Value |
@@ -25,7 +26,7 @@ When you start the Node Red flow for the first time, it requires some time to re
 
 *******
 
-### Persistent storage
+### 2 - Persistent storage
 During the installation of Node Red and the flow, you have enabled persistent storage. To verify this has been done correctly, you need to look at the logs.
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > LOG** <br>
@@ -35,7 +36,7 @@ During the installation of Node Red and the flow, you have enabled persistent st
 
 *******
 
-### Test MQTT connection
+### 3 - Test MQTT connection
 You can verify the mqtt configuration from within the Node Red dashboard:
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > MQTT** <br>
@@ -46,7 +47,7 @@ You can verify the mqtt configuration from within the Node Red dashboard:
 
 ********
 
-### Check MQTT block
+### 4 - Check MQTT block
 Rarely it hapens that the mqtt-block is triggered during first startup. Check to see if it is free.
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > MQTT** <br>
@@ -61,7 +62,7 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 
 *********
 
-### Set time-Zone
+### 5 - Set time-Zone
 You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > SETTINGS** <br>
@@ -72,7 +73,7 @@ You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 
 *******
 
-### When Heating mode = Compensation Curve
+### 6 - When (HEAT) Heating mode = Compensation Curve
 We need to make sure the <ins>Node Red CCC settings</ins> matches the <ins>Panasonic Compensation Curve settings</ins>.<br>
 First, you should know what your heating modes is:
 - Direct
@@ -83,7 +84,7 @@ First, you should know what your heating modes is:
 > Look in Heishamon: find TOP76 Heating_Mode<br>
 > Look in Node Red dashboard: [SYSTEM] > [HARDWARE] under "Hardware configuration" see Heating mode
 
-#### Compensation Curve
+#### 6.1 - Compensation Curve
 We need to make sure the <ins>Node Red CCC settings</ins> matches the <ins>Panasonic Compensation Curve settings</ins>. <br>
 - In the dashboard, select **Home**<br>
 - "Valve position" should be in **ROOM** position
@@ -99,8 +100,17 @@ We need to make sure the <ins>Node Red CCC settings</ins> matches the <ins>Panas
 > - On the dashboard **Home** under Heat Pump: **Outlet setpoint** temperature<br>
 > - On the dashboard **Home** under HEAT (zone 1 and 2): CCC (..°C) **XX** °C
 
-#### Direct
+#### 6.2 - Direct
 No further action is required
 
+*********
 
+### 7 - When (COOL) Heating mode = Compensation Curve
+The flow is NOT yet designed to work with heating mode Compensation Curve for cooling. Please set the heatpump in Direct mode for cooling
 
+> [!NOTE]
+> The `heating mode` for HEAT and COOL are set independantly.
+
+[Top](#top) / [Back](flow_usage.md)
+
+**********
