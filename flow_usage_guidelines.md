@@ -6,15 +6,17 @@ These are the setup guidelines. Please read them carefully and try to understand
 ******
 
 ### Rule 1: Start with all functions disabled
-If you have just installed this flow for the first time, it is likely you are used to a very simple control. You might have already figured out an operating window which gives you comfort in your home. 
+From experience I know that starting with everything disabled is NOT what people tend to do or like... <br>
+But if you have just installed this flow for the first time, it is likely you are used to a very simple control. You might have already figured out an operating window which gives you comfort in your home, using that. 
 
 So, please start with that. 
 
-Why? You need to:<br>
-- make sure the very basics are working as expected
-- build a feel and insights on the 'default' operation
+Why? <br>
+- You need to make sure the very basics of the dashboard are working as expected.
+- You need to build up a reference feel and insights on the basic operation.
+- You will likely see a lot of new things like indicaters or knobs to turn. Diving in the depth directly, is a bad idea and could get you lost.
 
-Only after you have confidence the dashboard is working correctly, continue with the next steps.
+Only after you have confidence that the dashboard is working correctly, continue with the next steps.
 
 ******
 
