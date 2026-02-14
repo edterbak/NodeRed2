@@ -27,7 +27,7 @@ The installation process of the heishamon module, node red or an MQTT broker, ar
 _1: To clarify; Although it is possible to have Node Red installed as App inside of Home Assistant, Home Assistant itself is not required._
 
 ## Continue
-If you are still interessted and meet the requirements you can go through with the [installation process](installation.md).<br> 
+If you are still interessted and meet the requirements you can go through with the [installation process](nodered_installation.md).<br> 
 
 
 [Back](readme.md)
