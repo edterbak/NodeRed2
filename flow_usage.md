@@ -3,11 +3,13 @@
 
 <a id="quick_start"></a>
 ### Quick start
-Here is a quicklist for things to check or set.
+Here is a shortlist for things you need to do or check after first deployment.
 - Check heishamon config
 - Check Persistent storage
 - Check MQTT connection
-- Set TimeZone
+- Set time-zone
+
+Make sure you do them.
 
 ********
 
@@ -47,13 +49,13 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 > [!Note]
 > When for some reasone there is a major issue between the dashboard and the heatpump, you can disable the dashboard by turning the "Block MQTT" toggle **ON**.<br>
 > The Node Red flow will be in read-only mode then.<br><br>
-> > Also usefull while doing maintenance.
+> :screwdriver: This "Blockk MQTT" is also usefull when doing maintenance.
 
 
 *********
 
-#### Time Zone
-To set the correct timezone within Node Red dashboard:
+#### Set time-Zone
+You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > SETTINGS** <br>
 - Select your time zone<br>
