@@ -1,10 +1,11 @@
 <a id="top"></a>
 ## Quick start
-Here is a shortlist for things you need to do or check after first deployment.
+Here is a shortlist for things you <ins>need</ins> to do or check after first deployment.
 - Check heishamon config
 - Check Persistent storage
 - Check MQTT connection
 - Set time-zone
+- When Heating mode = Compensation Curve
 
 Make sure you do them.
 
@@ -71,5 +72,11 @@ You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 
 *******
 
+### When Heating mode = Compensation Curve
+You should know that you can operate the heatpump in two heating modes:
+- Direct
+- Compensation Curve
+
+When your current heating modoe is Compensation Curve, you need to verify and set one extra thing.
 
 
