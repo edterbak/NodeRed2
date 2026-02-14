@@ -1,8 +1,6 @@
 <a id="top"></a>
-## Flow Usage
-
 <a id="quick_start"></a>
-### Quick start
+## Quick start
 Here is a shortlist for things you need to do or check after first deployment.
 - Check heishamon config
 - Check Persistent storage
@@ -13,7 +11,7 @@ Make sure you do them.
 
 ********
 
-#### Heishamon config
+### Heishamon config
 When you start the Node Red flow for the first time, it requires some time to read the data from heishamon. This can take up to 10 minutes, depending on your heishamon setting. My settings are given below. For me they work fine.
 
 | Config item  | Value |
@@ -23,7 +21,7 @@ When you start the Node Red flow for the first time, it requires some time to re
 
 *******
 
-#### Persistent storage
+### Persistent storage
 During the installation of Node Red and the flow, you have enabled persistent storage. To verify this has been done correctly, you need to look at the logs.
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > LOG** <br>
@@ -31,7 +29,7 @@ During the installation of Node Red and the flow, you have enabled persistent st
 
 *******
 
-#### Test MQTT connection
+### Test MQTT connection
 You can verify the mqtt configuration from within the Node Red dashboard:
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > MQTT** <br>
@@ -40,7 +38,7 @@ You can verify the mqtt configuration from within the Node Red dashboard:
 
 ********
 
-#### Check MQTT block
+### Check MQTT block
 Rarely it hapens that the mqtt-block is triggered during first startup. Check to see if it is free.
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > MQTT** <br>
@@ -51,17 +49,14 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 > The Node Red flow will be in read-only mode then.<br><br>
 > :screwdriver: This "Blockk MQTT" is also usefull when doing maintenance.
 
-
 *********
 
-#### Set time-Zone
+### Set time-Zone
 You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 - Open the Dashboard http://<host-ip>:1880/ui/ <br>
 - Go to tab **SYSTEM > SETTINGS** <br>
 - Select your time zone<br>
 - Press **[Save]**
-
-
 
 [Top](#top) / [Back](readme.md)
 
