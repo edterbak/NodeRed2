@@ -67,29 +67,6 @@ You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 
 *******
 
-<a id="guidelines"></a>
-### Setup guidelines
-These are the setup guidelines
-
-[Top](#top) / [Back](readme.md)
-
-*******
-
-<a id="functions"></a>
-### Functions
-There are a number of functions...
-
-[Top](#top) / [Back](readme.md)
-
-*******
-
-<a id="tips"></a>
-### Tips
-Below are usefull tips.
-
-[Top](#top) / [Back](readme.md)
-
-*******
 
 
 
