@@ -77,6 +77,29 @@ You should know that you can operate the heatpump in two heating modes:
 - Direct
 - Compensation Curve
 
-When your current heating modoe is Compensation Curve, you need to verify and set one extra thing.
+> [!NOTE]
+> If you don't know your current heating mode:<br>
+> Look in Heishamon: find TOP76 Heating_Mode<br>
+> Look in Node Red dashboard: [SYSTEM] > [HARDWARE] under "Hardware configuration" see Heating mode
+
+#### Compensation Curve
+We need to make sure the <ins>Node Red CCC settings</ins> matches the <ins>Panasonic Compensation Curve settings</ins>. <br>
+- In the dashboard, select **Home**<br>
+- "Valve position" should be in **ROOM** position
+- **Disable** the functions: **RTC**, **Night Reduction** and **SoftStart**
+- Set the **Shift** to **0** (zero)
+- Go to CCC menu
+- Now **set** the **temperatures** to match your settings exactly as in Panasonic (cloud or controller)
+- Do this for **all zones** in use
+
+> [!IMPORTANT]
+> Check and confirm the final target temperature in Node Red is exactly as in Panasonic (cloud or controller)<br>
+> Check and confirm the zone 1/2 target temperature in Node Red is exactly as in Panasonic (cloud or controller)<br>
+> - On the dashboard **Home** under Heat Pump: **Outlet setpoint** temperature<br>
+> - On the dashboard **Home** under HEAT (zone 1 and 2): CCC (..°C) **XX** °C
+
+#### Direct
+No further action is required
+
 
 
