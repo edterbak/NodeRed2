@@ -18,36 +18,15 @@ Only after you have confidence the dashboard is working correctly, continue with
 
 ******
 
-### Rule 2: Enable functions in the right order
+### Rule 2: Configure the functions in the right order
 There is only **one** correct order of configuring functions. If you do not follow this order, you can expect discomfort.<br>
 The basic order is `top-down`. From big imact to little impact.
 
-#### 1 - CCC (Custom Compensation Curve)<br>
-This function has the most impact.<br>
-Set it up so the temperature of your house is stable and comfortable during the whole day.<br>
-> [!IMPORTANT]
-> Test CCC, with <ins>all other functions disabled</ins>.<br>
-   
-> [!NOTE]
-> If you are operating your pump with the Panasonic `Compensation Curve`-mode, the Node Red CCC function is always disabled.<br>BUT... Even then. The same rule applies here.
-Make sure you have setup it up correctly.
+1. CCC (Custom Compensation Curve)<br>
+2. RTC (Room Temperature Correction)
+3. SoftStart
 
-Once this is done, you can continue with the next function.
-
-#### 2 - RTC (Room Temperature Correction)
-This function is meant for fine-tuning. In case the room temperature fluctuates due to external influences, the RTC function can compensate a little.<br>
-Do not set this function to be too agressive in corrections, as it is meant for fine-tuning. It is not meant to take over the role of the CCC function. 
-
-#### 3 - Night reduction
-This function is not for everyone. <br>
-There are some users who wish to lower the target temperature of the house during the night.
-> [!NOTE]
-> Think carefully if you wish to use this functionality. A heatpump opperates more efficiently when kept at stable operating conditions. In theory, the Night reduction function works against this.
-
-#### 4 - SoftStart
-
-
-1. Scheduler
+For the details on HOW to configure these functions correctly, see `functions` section.
 
 ******
 
@@ -66,10 +45,6 @@ First verify it is the function that is at fault by disabling the function.
 > Example:
 > If you think you have too short compressor-runs and suspect the SoftStart function is at fault, disable it and see what the behaviour is without it.
 
-******
-
-### The custom functions
-There are a number of custom functions in the dashboard. Some of these functions work independantly of another function, while other functions build ontop of eachother.
 
 [Top](#top) / [Back](readme.md)
 
