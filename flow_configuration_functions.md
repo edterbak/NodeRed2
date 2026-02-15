@@ -1,7 +1,7 @@
 <a id="top"></a>
 ## Custom functions
 
-The flow contains custom functions. 
+The flow contains custom functions and special features. The purpose of each one is described here
   - [Custom functions](#functions)
     - [Pumpspeed](#pumpspeed)
     - [CCC](#ccc)
@@ -25,17 +25,20 @@ Set a different maximum water flow during DHW operation.
 Set a different maximum water flow during HEAT operation.  
 You can set a default (low) maximum water flow. This is active when both operations are inactive (with active compressor).  
 <br>
-Note: Do not set the maximum flow too low. It causes irratic behavior and a LOT of stop/starts. 
+> [!NOTE]
+> Do not set the maximum flow too low. It causes irratic behavior and a LOT of stop/starts.<br>
+> Do not set the maximum flow too high. It causes the pump to stay longer on high compressor frequencies
 
 [Top](#top) / [Back](flow_configuration.md)
 
 ******
 
 <a id="war"></a>
-### WAR
-weather dependent temperature control.  
+### CCC (Custom Compensation Curve)
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_war.png?raw=true)  
-! This function is only available when the heat pump is set to "Direct" mode. When the heat pump is set to "Compensation Curve" mode, the WAR function is automatically greyed out and disabled.  
+
+> [!IMPORTANT]
+> This function is only available when the heat pump is set to "Direct" mode. When the heat pump is set to "Compensation Curve" mode, the WAR function is automatically greyed out and disabled.  
 
 **Question**: Why have you created the same custom function while Panasonic provided the same function as "Compensation Curve"?   
 **Answer**: The native Panasonic implementation is limited to the in-built thermocouple or connected external temperature sensor. Both are affected by direct sunlight and show incorrect values then. The custom function is able to use **any** sensor which is able to produce values into Node Red. Personally I use "OpenWeatherMap" as a source. But any local sensor can be used. 
@@ -113,7 +116,8 @@ I have added an option to create 10x schedules for the following actions:
 On each line of the scheduler, you can indicate if the heat pump should be powered on for the task or not. 
 
 A recent addition to the scheduler is the possibility to add conditions for each of the scheduled tasks.  
-Note: Make sure the native panasonic scheduler (in the controller) is disabled to prevent unexpected behavior of the flow.
+> [!NOTE]
+> Make sure the native panasonic scheduler (in the controller) is disabled to prevent unexpected behavior of the flow.
 
 <a id="conditions"></a>
 #### Conditions
