@@ -68,13 +68,13 @@ In the dashboard:
 <img src="images/dashboard/flow_configuration_external_sensors_03.png" width=60%><br>
 
 > [!NOTE]
-> The value of the sensor is only populated after it has been selected AND when a new value is received.
+> Be aware that the value of the sensor is only populated after it has been selected AND when a new value is received.
 
 > [!NOTE]
 > If the drop-down list is not populated, click the :wastebasket: (Trashbin-icon) and wait for it to populate.
 
 > [!NOTE]
-> For connecting a P1 meter there are additional steps required
+> For connecting a **P1 meter** there are additional steps required. See [P1 instruction](#p1).
 
 [Top](#top) / [Back](flow_configuration.md)
 
