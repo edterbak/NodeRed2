@@ -12,7 +12,7 @@
 
 ### **Q – I use the Node Red App in Home Assistant, how to go to the Node Red Gui for editing?**
 <details>
-    Visit via a browser: 'http://<Your_NodeRed_IP>:1880/ui'<br/>
+    Visit via a browser: 'http://`<host-ip>`:1880/ui'<br/>
 </details>
 
 ---
