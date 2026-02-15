@@ -96,7 +96,7 @@ So, what can it do.
 * **Automations** using schedules with conditions.
 
 ### A quick dashboard impression
-Here are just a few images to show the dashboard. For more images look [>> here <<](dashboard.md)
+Here are just a few images to show the dashboard. For more images look in [the gallery.](gallery.md)
 
 *Home dashboard*<br>
 <img src="images/dashboard/home_01.png" width=50%>
