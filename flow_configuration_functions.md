@@ -2,6 +2,7 @@
 ## Custom functions
 
 The flow contains custom functions and special features. The purpose of each one is described here:
+
 - [Custom functions](#functions)
   - [Pumpspeed](#pumpspeed)
   - [CCC](#ccc)
@@ -9,7 +10,6 @@ The flow contains custom functions and special features. The purpose of each one
   - [Cool](#cool)
   - [SoftStart](#softstart)
   - [Solar²DHW](#solar2dhw)
-      
 - [Scheduler](#scheduler)
   - [Conditions](#conditions)
    
