@@ -20,9 +20,9 @@ The flow contains custom functions and special features. The purpose of each one
 <a id="pumpspeed"></a>
 ### Pumpspeed
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_pumpspeed.png?raw=true)  
-This function allows you to set dynamic pump speeds, depending on the current operation.  
-Set a different maximum water flow during DHW operation.  
-Set a different maximum water flow during HEAT operation.  
+This function allows you to set dynamic pump speeds, depending on the current operation. The reason you might want to do this, is that the piping length and diameter between the two water circuits are completly different and require a different optimal flow.<br>
+Set a different maximum water flow during DHW operation. <br>
+Set a different maximum water flow during HEAT operation.
 You can set a default (low) maximum water flow. This is active when both operations are inactive (with active compressor).  
 <br>
 > [!NOTE]
