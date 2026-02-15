@@ -105,3 +105,5 @@ What is working:
 
 What is **not** working:
 - payload.object
+
+In case your sensor input is not working correctly, you need to manually condition the incoming value in your [WP Personal] tab. 
