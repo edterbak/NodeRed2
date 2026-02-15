@@ -12,7 +12,7 @@ If you don't know about these rules or logic, you can end up with an unstable fl
 The flow I built contains extra functions. Functions which are often are not even present in the Panasonic solution.<br>
 This section will list the functions, explain the purpose / benefit and how to use it.
 
-- [External sensors](flow_configuration_external_sensors.md)
+- [External sensors](flow_configuration_external_sensors.md)<br>
 The flows custom function can operate with custom sensor.<br>
 This section will describe the process of adding external custom sensors.
 
