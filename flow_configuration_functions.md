@@ -13,9 +13,10 @@ The flow contains custom functions.
   - [Scheduler](#scheduler)
     - [Conditions](#conditions)
    
-[Back](readme.md)
+[Back](flow_configuration.md)
 
-<!-- headings -------------------------------->
+*********
+
 <a id="pumpspeed"></a>
 ### Pumpspeed
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_pumpspeed.png?raw=true)  
@@ -26,9 +27,10 @@ You can set a default (low) maximum water flow. This is active when both operati
 <br>
 Note: Do not set the maximum flow too low. It causes irratic behavior and a LOT of stop/starts. 
 
-[Top](#top) / [Back](readme.md)
+[Top](#top) / [Back](flow_configuration.md)
 
-<!-- headings -------------------------------->
+******
+
 <a id="war"></a>
 ### WAR
 weather dependent temperature control.  
@@ -40,9 +42,10 @@ weather dependent temperature control.
 
 You can import / export settings to the panasonic heat pump.
 
-[Top](#top) / [Back](readme.md)
+[Top](#top) / [Back](flow_configuration.md)
 
-<!-- headings -------------------------------->
+******
+
 <a id="rtc"></a>
 ### RTC: (Room Temperature Correction)
 
@@ -54,9 +57,10 @@ You can set the room target temperature, the temperature limits and you can set 
 
 Additionally it is possibility to use automation's. To have the pump shut down when above a trigger temperature and turn back ON again below a revert temperature. 
 
-[Top](#top) / [Back](readme.md)
+[Top](#top) / [Back](flow_configuration.md)
 
-<!-- headings -------------------------------->
+******
+
 <a id="softstart"></a>
 ### SoftStart:
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_softstart.png?raw=true)
@@ -74,9 +78,10 @@ This Quietmode (when switched on) will put the heat pump in the Quietmode (level
 When the compressor turns on, the Quietmode will remain active for an amount of time and after this time switches back to the previous Quietmode (if set).<br/>
 You can specify this fallback time in the Setup - Quietmode time (default 5 min).<br/>
 
-[Top](#top) / [Back](readme.md)
+[Top](#top) / [Back](flow_configuration.md)
 
-<!-- headings -------------------------------->
+******
+
 <a id="solar2dhw"></a>
 ### Solar²DHW:
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_solar2dhw.png?raw=true)
@@ -85,9 +90,10 @@ The aim of this function is to increase efficiency (and save cost) by utilizing 
 When there is solar energy in abundance, you can tell the heat pump to use that energy to heat up your DHW water tank. 
 To determine if there is enough solar energy, you need any form of power measurement. This can be a P1 power meter, or a meter directly behind your panels.  
 
-[Top](#top) / [Back](readme.md)
+[Top](#top) / [Back](flow_configuration.md)
 
-<!-- headings -------------------------------->
+******
+
 <a id="scheduler"></a>
 ### Scheduler
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_scheduler_main.png?raw=true)
@@ -109,11 +115,11 @@ On each line of the scheduler, you can indicate if the heat pump should be power
 A recent addition to the scheduler is the possibility to add conditions for each of the scheduled tasks.  
 Note: Make sure the native panasonic scheduler (in the controller) is disabled to prevent unexpected behavior of the flow.
 
-<!-- headings -------------------------------->
 <a id="conditions"></a>
 #### Conditions
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_scheduler_conditions.png?raw=true)  
 Each line in the condition section is a blocking condition. If the condition is met, the scheduled task will be blocked.  
 
-[Top](#top) / [Back](readme.md)
+[Top](#top) / [Back](flow_configuration.md)
 
+******
