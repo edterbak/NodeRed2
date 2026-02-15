@@ -1,7 +1,7 @@
-<!-- headings -------------------------------->
 <a id="top"></a>
 ## Custom functions
-The flow contains some custom functions. 
+
+The flow contains custom functions. 
   - [Custom functions](#functions)
     - [Pumpspeed](#pumpspeed)
     - [CCC](#ccc)
