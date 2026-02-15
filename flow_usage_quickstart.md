@@ -28,7 +28,7 @@ When you start the Node Red flow for the first time, it requires some time to re
 
 ### 2 - Persistent storage
 During the installation of Node Red and the flow, you have enabled persistent storage. To verify this has been done correctly, you need to look at the logs.
-- Open the Dashboard http://<host-ip>:1880/ui/ <br>
+- Open the Dashboard http://`<host-ip>`:1880/ui/ <br>
 - Go to tab **SYSTEM > LOG** <br>
 - Not long after the flow has started, a log entry should be shown with information about the persistent storage. Check it.<br>
 
@@ -38,7 +38,7 @@ During the installation of Node Red and the flow, you have enabled persistent st
 
 ### 3 - Test MQTT connection
 You can verify the mqtt configuration from within the Node Red dashboard:
-- Open the Dashboard http://<host-ip>:1880/ui/ <br>
+- Open the Dashboard[ http://<host-ip>:1880/ui/](http://`<host-ip>`:1880/ui/) <br>
 - Go to tab **SYSTEM > MQTT** <br>
 - Press the **[TEST]** button behind "MQTT Broker"
 - Look at the response below it. It should say "Connected" with a recent date/time stamp.
@@ -49,7 +49,7 @@ You can verify the mqtt configuration from within the Node Red dashboard:
 
 ### 4 - Check MQTT block
 Rarely it hapens that the mqtt-block is triggered during first startup. Check to see if it is free.
-- Open the Dashboard http://<host-ip>:1880/ui/ <br>
+- Open the Dashboard [http://<host-ip>:1880/ui/](http://`<host-ip>`:1880/ui/) <br>
 - Go to tab **SYSTEM > MQTT** <br>
 - Check the "Block MQTT" toggle. It should be **off**
 
@@ -64,7 +64,7 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 
 ### 5 - Set time-Zone
 You need to set the correct timezone <ins>within</ins> Node Red dashboard:
-- Open the Dashboard http://<host-ip>:1880/ui/ <br>
+- Open the Dashboard [http://<host-ip>:1880/ui/](http://`<host-ip>`:1880/ui/) <br>
 - Go to tab **SYSTEM > SETTINGS** <br>
 - Select your time zone<br>
 - Press **[Save]**
