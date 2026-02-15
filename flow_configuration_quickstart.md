@@ -13,7 +13,7 @@ Make sure you do them!
 > [!NOTE]
 > There are other instructions on how to configur the more advanced options. But the ones mentioned here, is the bare minimum for a quick start. 
 
-[Back](flow_usage.md)
+[Back](flow_configuration.md)
 
 ********
 
@@ -25,7 +25,7 @@ When you start the Node Red flow for the first time, it requires some time to re
 | How often new values are collected from heatpump |	**5 seconds** |
 | How often all heatpump values are retransmitted to MQTT broker |	300 | 
 
-[Top](#top) / [Back](flow_usage.md)
+[Top](#top) / [Back](flow_configuration.md)
 
 *******
 
@@ -35,7 +35,7 @@ During the installation of Node Red and the flow, you have enabled persistent st
 - Go to tab **SYSTEM > LOG** <br>
 - Not long after the flow has started, a log entry should be shown with information about the persistent storage. Check it.<br>
 
-[Top](#top) / [Back](flow_usage.md)
+[Top](#top) / [Back](flow_configuration.md)
 
 *******
 
@@ -46,7 +46,7 @@ You can verify the mqtt configuration from within the Node Red dashboard:
 - Press the **[TEST]** button behind "MQTT Broker"
 - Look at the response below it. It should say "Connected" with a recent date/time stamp.
 
-[Top](#top) / [Back](flow_usage.md)
+[Top](#top) / [Back](flow_configuration.md)
 
 ********
 
@@ -61,7 +61,7 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 > The Node Red flow will be in read-only mode then.<br><br>
 > :screwdriver: This "Block MQTT" is also usefull when doing maintenance.
 
-[Top](#top) / [Back](flow_usage.md)
+[Top](#top) / [Back](flow_configuration.md)
 
 *********
 
@@ -72,7 +72,7 @@ You need to set the correct timezone <ins>within</ins> Node Red dashboard:
 - Select your time zone<br>
 - Press **[Save]**
 
-[Top](#top) / [Back](flow_usage.md)
+[Top](#top) / [Back](flow_configuration.md)
 
 *******
 
@@ -115,6 +115,6 @@ Please set the heatpump in Direct mode for cooling if you want to use the functi
 > [!NOTE]
 > The `heating mode` for HEAT and COOL are set independantly.
 
-[Top](#top) / [Back](flow_usage.md)
+[Top](#top) / [Back](flow_configuration.md)
 
 **********
