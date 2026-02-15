@@ -22,7 +22,7 @@
 <a id="index"></a>
 ## Table of Content
 - [Introduction](#introduction)
-- [Dashboard screenshots](dashboard.md)
+- [Gallery](gallery.md)
 - [Requirements](requirements.md)
 - [Installation](nodered_installation.md)
 	- [Node Red](nodered_installation.md#node-red-installation)
