@@ -89,9 +89,12 @@ You can specify this fallback time in the Setup - Quietmode time (default 5 min)
 ### Solar²DHW:
 ![](https://github.com/edterbak/NodeRed_Heishamon_control/blob/main/images/dashboard/v24.00_solar2dhw.png?raw=true)
 
-The aim of this function is to increase efficiency (and save cost) by utilizing solar energy as much as possible.
-When there is solar energy in abundance, you can tell the heat pump to use that energy to heat up your DHW water tank. 
+The aim of this function is to increase efficiency (and save cost) by utilizing solar energy as much as possible.<br>
+When there is solar energy in abundance, you can tell the heat pump to use that energy to heat up your DHW water tank. <br>
 To determine if there is enough solar energy, you need any form of power measurement. This can be a P1 power meter, or a meter directly behind your panels.  
+
+> [!IMPORTANT]
+> For this function to work, you require a correctly setup P1 meter connected with this flow
 
 [Top](#top) / [Back](flow_configuration.md)
 
