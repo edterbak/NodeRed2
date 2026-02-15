@@ -1,17 +1,17 @@
 <a id="top"></a>
 ## Custom functions
 
-The flow contains custom functions and special features. The purpose of each one is described here
-  - [Custom functions](#functions)
-    - [Pumpspeed](#pumpspeed)
-    - [CCC](#ccc)
-    - [RTC](#rtc)
-    - [Cool](#cool)
-    - [SoftStart](#softstart)
-    - [Solar²DHW](#solar2dhw)
+The flow contains custom functions and special features. The purpose of each one is described here:
+- [Custom functions](#functions)
+  - [Pumpspeed](#pumpspeed)
+  - [CCC](#ccc)
+  - [RTC](#rtc)
+  - [Cool](#cool)
+  - [SoftStart](#softstart)
+  - [Solar²DHW](#solar2dhw)
       
-  - [Scheduler](#scheduler)
-    - [Conditions](#conditions)
+- [Scheduler](#scheduler)
+  - [Conditions](#conditions)
    
 [Back](flow_configuration.md)
 
