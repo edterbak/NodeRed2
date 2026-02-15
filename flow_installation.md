@@ -44,7 +44,7 @@ The flow is not aware yet of your MQTT broker. You need to adjust the settings o
 	
 You will see a list of configuration nodes appear below it.<br>
 <br>
-- Find and Double-click MQTT (x.x.x.x)<br>
+- Find and **edit** MQTT (x.x.x.x) (double click)<br>
 - Change/correct all settings of this node.
 	- Name: Rename x.x.x.x to a name of your own<br>
 	- Server: (if not present, add) IP adress of your MQTT brokker<br>
