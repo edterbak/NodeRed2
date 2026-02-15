@@ -100,11 +100,11 @@ So, what can it do.
 Here are just a few images to show the dashboard. For more images look in [the gallery.](gallery.md)
 
 *Home dashboard*<br>
-<img src="images/dashboard/home_01.png" width=50%>
+<img src="images/dashboard/home_01.png" width=70%>
 <br>
 
 *RoomTemperatureCorrection function*<br>
-<img src="images/dashboard/function_rtc_01.png" width=50%>
+<img src="images/dashboard/function_rtc_01.png" width=70%>
 <br><br>
 
 [Top](#top)
