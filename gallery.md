@@ -59,7 +59,7 @@
 ### Scheduler
 |   |
 |:--:|
-| <img src="images/dashboard/scheduler_01.png" alt="Scheduler" width="820" /><br><p align="left"><sub>Scheduler</sub></p> |
+| <img src="images/dashboard/scheduler_01.png" alt="Scheduler" width="820" /><br><p align="left"><sub>Scheduler<br>This is a home-built scheduler which is a lot more flexible than the panasonic version.</sub></p> |
 
 ---
 
@@ -87,8 +87,12 @@
 ### SYSTEM
 |   |
 |:--:|
-| <img src="images/dashboard/system_menu_config_01.png" alt="System — Menu & Config" width="820" /><br><p align="left"><sub>System — Menu & Config</sub></p> |
-| <img src="images/dashboard/system_hardware_01.png" alt="System — Hardware" width="820" /><br><p align="left"><sub>System — Hardware</sub></p> |
-| <img src="images/dashboard/system_sensors_01.png" alt="System — Sensors" width="820" /><br><p align="left"><sub>System — Sensors</sub></p> |
-| <img src="images/dashboard/system_mqtt_01.png" alt="System — MQTT" width="820" /><br><p align="left"><sub>System — MQTT</sub></p> |
 | <img src="images/dashboard/system_log_01.png" alt="System — Log" width="820" /><br><p align="left"><sub>System — Log</sub></p> |
+| <img src="images/dashboard/system_hardware_01.png" alt="System — Hardware" width="820" /><br><p align="left"><sub>System — Hardware</sub></p> |
+| <img src="images/dashboard/system_sensors_01.png" alt="System — Sensors" width="820" /><br><p align="left"><sub>System — Sensors<br>Configure your custom sensors</sub></p> |
+| <img src="images/dashboard/system_mqtt_01.png" alt="System — MQTT" width="820" /><br><p align="left"><sub>System — MQTT</sub></p> |
+| <img src="images/dashboard/system_menu_config_01.png" alt="System — Menu & Config" width="820" /><br><p align="left"><sub>System — Menu config <br>Customize the menu.</sub></p> |
+
+
+
+
