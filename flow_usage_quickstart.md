@@ -8,7 +8,10 @@ Here is a shortlist for things you <ins>need</ins> to do or check after first de
 5. When (HEAT) Heating mode = Compensation Curve
 6. When (COOL) Heating mode = Compensation Curve
 
-Make sure you do them.
+Make sure you do them!
+
+> [!NOTE]
+> There are other instructions on how to configur the more advanced options. But the ones mentioned here, is the bare minimum for a quick start. 
 
 [Back](flow_usage.md)
 
