@@ -1,6 +1,6 @@
 <a id="top"></a>
 ## Quick start
-Here is a shortlist for things you <ins>need</ins> to do or check after first deployment.
+Here is a shortlist for things you <ins>need</ins> to do or check and configure after first deployment.
 1. Check heishamon config
 2. Check Persistent storage
 3. Check MQTT connection
