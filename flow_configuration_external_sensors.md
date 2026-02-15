@@ -65,6 +65,8 @@ In the dashboard:
 3. **Select** the right topic in the list
 4. Confirm it is correct when new values is received
 
+<img src="images/dashboard/flow_configuration_external_sensors_03.png" width=60%><br>
+
 > [!NOTE]
 > The value of the sensor is only populated after it has been selected AND when a new value is received.
 
