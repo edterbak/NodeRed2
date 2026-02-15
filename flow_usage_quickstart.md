@@ -56,7 +56,7 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 > [!Note]
 > When for some reasone there is a major issue between the dashboard and the heatpump, you can disable the dashboard by turning the "Block MQTT" toggle **ON**.<br>
 > The Node Red flow will be in read-only mode then.<br><br>
-> :screwdriver: This "Blockk MQTT" is also usefull when doing maintenance.
+> :screwdriver: This "Block MQTT" is also usefull when doing maintenance.
 
 [Top](#top) / [Back](flow_usage.md)
 
