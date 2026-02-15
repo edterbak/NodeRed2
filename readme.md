@@ -22,6 +22,7 @@
 <a id="index"></a>
 ## Table of Content
 - [Introduction](#introduction)
+- [Dashboard screenshots](dashboard.md)
 - [Requirements](requirements.md)
 - [Installation](nodered_installation.md)
 	- [Node Red](nodered_installation.md#node-red-installation)
@@ -39,7 +40,6 @@
   - [Tips](flow_usage.md#tips)
 - [Update instructions](update_instructions.md)
 - [Changes](changes.md)
-- [Dashboard screenshots](dashboard.md)
 - [FAQ](faq.md)
 - [Acknowledgments](acknowledgements.md)
 - [Donations](donations.md)  
