@@ -14,7 +14,7 @@ Assuming a sensor is available and reporting in Node Red, here are the steps to 
 
 
 *Home dashboard*<br>
-<img src="images/dashboard/flow_configuration_external_sensors_01.png" width=80%>
+<img src="images/dashboard/flow_configuration_external_sensors_01.png" width=60%>
 <br>
 
 *Home dashboard*<br>
