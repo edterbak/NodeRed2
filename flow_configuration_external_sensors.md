@@ -50,6 +50,7 @@ Click on **[Deploy]** to save your changes<br>
 
 <img src="images/dashboard/flow_configuration_external_sensors_02.png" width=50%><br>
 
+[Top](#top) / [Back](flow_configuration.md)
 
 *********
 
@@ -73,6 +74,8 @@ In the dashboard:
 > [!NOTE]
 > For connecting a P1 meter there are additional steps required
 
+[Top](#top) / [Back](flow_configuration.md)
+
 ********
 
 <a id="p1"></a>
@@ -91,6 +94,8 @@ To configure this:
 > Import is everything coming INTO your house from the grid (POSITIVE value)<br>
 > Export is everything going OUT your house to the grid (NEGATIVE value)<br><br>
 > > This is in alignment with what the power supplier puts it on the bill
+
+[Top](#top) / [Back](flow_configuration.md)
 
 ********
 
@@ -111,4 +116,8 @@ What is **not** working:
 - payload.object
 
 > [!NOTE]
-> In case your sensor input is not working correctly, you need to manually condition the incoming value in your [WP Personal] tab. 
+> In case your sensor input is not working correctly, you need to manually condition the incoming value in your [WP Personal] tab.
+
+[Top](#top) / [Back](flow_configuration.md)
+
+********
