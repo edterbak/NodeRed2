@@ -38,7 +38,7 @@ During the installation of Node Red and the flow, you have enabled persistent st
 
 ### 3 - Test MQTT connection
 You can verify the mqtt configuration from within the Node Red dashboard:
-- Open the Dashboard[ http://<host-ip>:1880/ui/](http://`<host-ip>`:1880/ui/) <br>
+- Open the Dashboard http://`<host-ip>`:1880/ui/ <br>
 - Go to tab **SYSTEM > MQTT** <br>
 - Press the **[TEST]** button behind "MQTT Broker"
 - Look at the response below it. It should say "Connected" with a recent date/time stamp.
@@ -49,7 +49,7 @@ You can verify the mqtt configuration from within the Node Red dashboard:
 
 ### 4 - Check MQTT block
 Rarely it hapens that the mqtt-block is triggered during first startup. Check to see if it is free.
-- Open the Dashboard [http://<host-ip>:1880/ui/](http://`<host-ip>`:1880/ui/) <br>
+- Open the Dashboard http://`<host-ip>`:1880/ui/ <br>
 - Go to tab **SYSTEM > MQTT** <br>
 - Check the "Block MQTT" toggle. It should be **off**
 
@@ -64,7 +64,7 @@ Rarely it hapens that the mqtt-block is triggered during first startup. Check to
 
 ### 5 - Set time-Zone
 You need to set the correct timezone <ins>within</ins> Node Red dashboard:
-- Open the Dashboard [http://<host-ip>:1880/ui/](http://`<host-ip>`:1880/ui/) <br>
+- Open the Dashboard http://`<host-ip>`:1880/ui/ <br>
 - Go to tab **SYSTEM > SETTINGS** <br>
 - Select your time zone<br>
 - Press **[Save]**
@@ -106,7 +106,8 @@ No further action is required
 *********
 
 ### 7 - When (COOL) Heating mode = Compensation Curve
-The flow is NOT yet designed to work with heating mode Compensation Curve for cooling. Please set the heatpump in Direct mode for cooling
+The flow is NOT yet designed to work with heating mode Compensation Curve for cooling.<br>
+Please set the heatpump in Direct mode for cooling if you want to use the function for cooling. 
 
 > [!NOTE]
 > The `heating mode` for HEAT and COOL are set independantly.
