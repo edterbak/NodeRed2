@@ -7,6 +7,8 @@
 - [P1 Instruction](#p1)
 - [Limitations](#limitations)
 
+[Back](flow_configuration.md)
+
 ********
 
 <a id="instructions"></a>
@@ -23,6 +25,8 @@ You can use an external sensor for these functions:
 There are two parts of adding an external sensor.
 - Part 1: In the flow-editor
 - Part 2: In the Dashboard
+
+[Top](#top) / [Back](flow_configuration.md)
 
 ******
 
@@ -92,7 +96,7 @@ To configure this:
 
 <a id="limitations"></a>
 ### Limitations
-Sensors can send their value in various formats.
+Sensors can send their value in various formats. 
 - payload
 - object
 - array
@@ -106,4 +110,5 @@ What is working:
 What is **not** working:
 - payload.object
 
-In case your sensor input is not working correctly, you need to manually condition the incoming value in your [WP Personal] tab. 
+> [!NOTE]
+> In case your sensor input is not working correctly, you need to manually condition the incoming value in your [WP Personal] tab. 
